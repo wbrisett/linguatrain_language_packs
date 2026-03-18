@@ -40,7 +40,7 @@ If the community creates packs for other language pairs, they will work just as 
 
 ## ⚠️ Important Note
 
-The author is not a native speaker of the sample languages included here. AI tools were used to help generate and refine these packs.
+I am not a native speaker of the sample languages included here. AI tools were used to help generate and refine these packs.
 
 As a result:
 
