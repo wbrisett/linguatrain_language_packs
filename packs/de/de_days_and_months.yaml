@@ -1,0 +1,109 @@
+---
+metadata:
+  id: "de_days_and_months"
+  version: 1
+  author: "Wayne Brissette"
+  description: "months and day of the week"
+  schema_version: 1
+
+entries:
+
+  - id: "001"
+    prompt: "Monday"
+    answer: [Montag]
+    phonetic: MOHN-tahg
+
+  - id: "002"
+    prompt: "Tuesday"
+    answer: [Dienstag]
+    phonetic: DEENS-tahg
+
+  - id: "003"
+    prompt: "Wednesday"
+    answer: [Mittwoch]
+    phonetic: MIT-vohkh
+
+  - id: "004"
+    prompt: "Thursday"
+    answer: [Donnerstag]
+    phonetic: DON-ner-stahg
+
+  - id: "005"
+    prompt: "Friday"
+    answer: [Freitag]
+    phonetic: FRY-tahg
+
+  - id: "006"
+    prompt: "Saturday"
+    answer: [Samstag]
+    phonetic: ZAHMS-tahg
+
+  - id: "007"
+    prompt: "Sunday"
+    answer: [Sonntag]
+    phonetic: ZOHN-tahg
+
+  - id: "008"
+    prompt: "Weekend"
+    answer: [Wochenende]
+    phonetic: VOH-khen-en-deh
+
+  - id: "009"
+    prompt: "January"
+    answer: [Januar]
+    phonetic: YAH-noo-ahr
+
+  - id: "010"
+    prompt: "February"
+    answer: [Februar]
+    phonetic: FEH-broo-ahr
+
+  - id: "011"
+    prompt: "March"
+    answer: [März]
+    phonetic: MAERTS
+
+  - id: "012"
+    prompt: "April"
+    answer: [April]
+    phonetic: AH-pril
+
+  - id: "013"
+    prompt: "May"
+    answer: [Mai]
+    phonetic: MY
+
+  - id: "014"
+    prompt: "June"
+    answer: [Juni]
+    phonetic: YOO-nee
+
+  - id: "015"
+    prompt: "July"
+    answer: [Juli]
+    phonetic: YOO-lee
+
+  - id: "016"
+    prompt: "August"
+    answer: [August]
+    phonetic: OW-goost
+
+  - id: "017"
+    prompt: "September"
+    answer: [September]
+    phonetic: ZEP-tem-ber
+
+  - id: "018"
+    prompt: "October"
+    answer: [Oktober]
+    phonetic: OK-toh-ber
+
+  - id: "019"
+    prompt: "November"
+    answer: [November]
+    phonetic: NOH-vem-ber
+
+  - id: "020"
+    prompt: "December"
+    answer: [Dezember]
+    phonetic: DEH-tsem-ber

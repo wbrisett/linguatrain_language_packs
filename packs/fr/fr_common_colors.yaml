@@ -1,0 +1,74 @@
+metadata:
+  id: "fr_common_colors"
+  version: 1
+  author: "Wayne Brissette"
+  description: "Common Colors"
+  schema_version: 1
+
+entries:
+- id: '001'
+  prompt:
+  - red
+  answer:
+  - rouge
+  phonetic: ROOZH
+- id: '002'
+  prompt:
+  - blue
+  answer:
+  - bleu
+  phonetic: BLU
+- id: '003'
+  prompt:
+  - green
+  answer:
+  - vert
+  phonetic: VEHR
+- id: '004'
+  prompt:
+  - yellow
+  answer:
+  - jaune
+  phonetic: ZHOHN
+- id: '005'
+  prompt:
+  - orange (color)
+  answer:
+  - orange
+  phonetic: OH-RAHNZH
+- id: '006'
+  prompt:
+  - black
+  answer:
+  - noir
+  phonetic: NWAHR
+- id: '007'
+  prompt:
+  - white
+  answer:
+  - blanc
+  phonetic: BLAHN
+- id: '008'
+  prompt:
+  - gray
+  answer:
+  - gris
+  phonetic: GREE
+- id: '009'
+  prompt:
+  - brown
+  answer:
+  - marron
+  phonetic: MAH-ROHN
+- id: '010'
+  prompt:
+  - pink
+  answer:
+  - rose
+  phonetic: ROHZ
+- id: '011'
+  prompt:
+  - purple
+  answer:
+  - violet
+  phonetic: VEE-oh-lay

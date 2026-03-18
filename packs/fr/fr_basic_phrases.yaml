@@ -1,0 +1,134 @@
+metadata:
+  id: "fr_basics"
+  version: 1
+  schema_version: 1
+  author: "Wayne Brissette"
+  description: "Starter basics pack for French."
+
+entries:
+  - id: "001"
+    prompt: "Hello"
+    answer:
+      - "Bonjour"
+    phonetic: "bohn-ZHOOR"
+
+  - id: "002"
+    prompt: "Good morning"
+    answer:
+      - "Bonjour"
+    phonetic: "bohn-ZHOOR"
+
+  - id: "003"
+    prompt: "How are you?"
+    answer:
+      - "Comment allez-vous ?"
+    phonetic: "koh-MAHN tah-lay VOO"
+
+  - id: "004"
+    prompt: "I'm fine, thank you"
+    answer:
+      - "Je vais bien, merci"
+    phonetic: "zhuh vay byan mehr-SEE"
+
+  - id: "005"
+    prompt: "Excuse me"
+    answer:
+      - "Excusez-moi"
+    phonetic: "ehk-skew-zay MWAH"
+
+  - id: "006"
+    prompt: "Sorry"
+    answer:
+      - "Je suis désolé"
+      - "Je suis désolée"
+    phonetic: "zhuh swee day-zoh-LAY"
+
+  - id: "007"
+    prompt: "Please"
+    answer:
+      - "S'il vous plaît"
+    phonetic: "seel voo PLAY"
+
+  - id: "008"
+    prompt: "Thank you"
+    answer:
+      - "Merci"
+    phonetic: "mehr-SEE"
+
+  - id: "009"
+    prompt: "Do you speak English?"
+    answer:
+      - "Parlez-vous anglais ?"
+    phonetic: "par-lay VOO ahn-GLAY"
+
+  - id: "010"
+    prompt: "Do you speak French?"
+    answer:
+      - "Parlez-vous français ?"
+    phonetic: "par-lay VOO frahn-SAY"
+
+  - id: "011"
+    prompt: "I don't understand"
+    answer:
+      - "Je ne comprends pas"
+    phonetic: "zhuh nuh kohm-PRAHN pah"
+
+  - id: "012"
+    prompt: "Where is the bathroom?"
+    answer:
+      - "Où sont les toilettes ?"
+    phonetic: "oo sohn lay twah-LET"
+
+  - id: "013"
+    prompt: "How much does this cost?"
+    answer:
+      - "Combien ça coûte ?"
+    phonetic: "kohm-BYAN sah KOOT"
+
+  - id: "014"
+    prompt: "I would like this"
+    answer:
+      - "Je voudrais ceci"
+    phonetic: "zhuh voo-DRAY suh-SEE"
+
+  - id: "015"
+    prompt: "Can you help me?"
+    answer:
+      - "Pouvez-vous m'aider ?"
+    phonetic: "poo-vay VOO may-DAY"
+
+  - id: "016"
+    prompt: "What time is it?"
+    answer:
+      - "Quelle heure est-il ?"
+    phonetic: "kel ur eh-TEEL"
+
+  - id: "017"
+    prompt: "Where is the train station?"
+    answer:
+      - "Où est la gare ?"
+    phonetic: "oo eh lah gar"
+
+  - id: "018"
+    prompt: "I live in..."
+    answer:
+      - "J'habite à..."
+    phonetic: "zhah-BEET ah"
+
+  - id: "019"
+    prompt: "I am learning French"
+    answer:
+      - "J'apprends le français"
+    phonetic: "zhah-PRAHN luh frahn-SAY"
+
+  - id: "020"
+    prompt: "Can you repeat that?"
+    answer:
+      - "Pouvez-vous répéter cela ?"
+    phonetic: "poo-vay VOO ray-pay-TAY suh-LAH"
+
+  - id: "021"
+    prompt: "What is this?"
+    answer:
+      - "Qu'est-ce que c'est ?"
+    phonetic: "kess kuh say"

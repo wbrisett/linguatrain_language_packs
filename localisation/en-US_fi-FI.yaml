@@ -1,0 +1,34 @@
+meta:
+  id: "fi-FI_ui"
+  name: "Finnish UI (auto labels)"
+
+languages:
+  source:
+    code: "en-US"
+    name: "English"
+  target:
+    code: "fi-FI"
+    name: "Finnish"
+
+tts:
+  template: "Suomeksi: {text}."
+
+ui:
+  quiz_label: "Quiz"
+  correct: "✅ Oikein!"
+  try_again: "❌ Yritä uudelleen."
+  replay_hint: "🔁 (Kirjoita 'r' toistaaksesi äänen)"
+  also_accepted_prefix: "➕ Myös käy:"
+  phonetic_prefix: "🗣 ääntämys:"
+  prompt_prefix: "auto"
+  target_prefix: "auto"
+  correct_answer_prefix: "📘 Oikea vastaus:"
+  correct_word_prefix: "📘 Oikea sana:"
+  quit_message: "👋 Lopetetaan. Kiitos!"
+  no_mistakes: "😊 Ei virheitä — hienoa!"
+  printed_voice_prefix: "🗣 ääneen:"
+  #transform_positive_instruction: "Anna myönteinen vastaus:"
+  #transform_negative_instruction: "Anna kielteinen vastaus:"
+  #conjugate_positive_instruction: "Anna myönteinen muoto:"
+  #conjugate_negative_instruction: "Anna kielteinen muoto:"
+  #conjugate_prompt: "Taivuta verbi."

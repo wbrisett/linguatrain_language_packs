@@ -1,0 +1,34 @@
+meta:
+  id: "fr-FR_ui"
+  name: "French UI (auto labels)"
+
+languages:
+  source:
+    code: "en-US"
+    name: "English"
+  target:
+    code: "fr-FR"
+    name: "French"
+
+tts:
+  template: "En français : {text}."
+
+ui:
+  quiz_label: "Quiz"
+  correct: "✅ Correct !"
+  try_again: "❌ Réessaie."
+  replay_hint: "🔁 (Tape 'r' pour réécouter l'audio)"
+  also_accepted_prefix: "➕ Aussi accepté :"
+  phonetic_prefix: "🗣 prononciation :"
+  prompt_prefix: "auto"
+  target_prefix: "auto"
+  correct_answer_prefix: "📘 Bonne réponse :"
+  correct_word_prefix: "📘 Mot correct :"
+  quit_message: "👋 On s'arrête. Merci !"
+  no_mistakes: "😊 Aucune erreur — bravo !"
+  printed_voice_prefix: "🗣 à voix haute :"
+  #transform_positive_instruction: "Donne la forme affirmative :"
+  #transform_negative_instruction: "Donne la forme négative :"
+  #conjugate_positive_instruction: "Donne la forme affirmative :"
+  #conjugate_negative_instruction: "Donne la forme négative :"
+  #conjugate_prompt: "Conjugue le verbe."

@@ -1,0 +1,282 @@
+metadata:
+  id: "fr_conjugate"
+  version: 1
+  drill_type: "conjugate"
+  author: "Wayne Brissette"
+  description: "Starter conjugation drills for French."
+  schema_version: 1
+  # shuffle_persons: true
+  # Use shuffle_persons to randomize person order during practice.
+
+persons:
+  - "je"
+  - "tu"
+  - "il/elle"
+  - "nous"
+  - "vous"
+  - "ils/elles"
+
+entries:
+  - id: "001"
+    lemma: "être"
+    forms:
+      je:
+        positive: ["suis"]
+        negative: ["ne suis pas"]
+      tu:
+        positive: ["es"]
+        negative: ["n'es pas"]
+      il/elle:
+        positive: ["est"]
+        negative: ["n'est pas"]
+      nous:
+        positive: ["sommes"]
+        negative: ["ne sommes pas"]
+      vous:
+        positive: ["êtes"]
+        negative: ["n'êtes pas"]
+      ils/elles:
+        positive: ["sont"]
+        negative: ["ne sont pas"]
+
+  - id: "002"
+    lemma: "avoir"
+    forms:
+      je:
+        positive: ["ai"]
+        negative: ["n'ai pas"]
+      tu:
+        positive: ["as"]
+        negative: ["n'as pas"]
+      il/elle:
+        positive: ["a"]
+        negative: ["n'a pas"]
+      nous:
+        positive: ["avons"]
+        negative: ["n'avons pas"]
+      vous:
+        positive: ["avez"]
+        negative: ["n'avez pas"]
+      ils/elles:
+        positive: ["ont"]
+        negative: ["n'ont pas"]
+
+  - id: "003"
+    lemma: "aller"
+    forms:
+      je:
+        positive: ["vais"]
+        negative: ["ne vais pas"]
+      tu:
+        positive: ["vas"]
+        negative: ["ne vas pas"]
+      il/elle:
+        positive: ["va"]
+        negative: ["ne va pas"]
+      nous:
+        positive: ["allons"]
+        negative: ["n'allons pas"]
+      vous:
+        positive: ["allez"]
+        negative: ["n'allez pas"]
+      ils/elles:
+        positive: ["vont"]
+        negative: ["ne vont pas"]
+
+  - id: "004"
+    lemma: "venir"
+    forms:
+      je:
+        positive: ["viens"]
+        negative: ["ne viens pas"]
+      tu:
+        positive: ["viens"]
+        negative: ["ne viens pas"]
+      il/elle:
+        positive: ["vient"]
+        negative: ["ne vient pas"]
+      nous:
+        positive: ["venons"]
+        negative: ["ne venons pas"]
+      vous:
+        positive: ["venez"]
+        negative: ["ne venez pas"]
+      ils/elles:
+        positive: ["viennent"]
+        negative: ["ne viennent pas"]
+
+  - id: "005"
+    lemma: "vouloir"
+    forms:
+      je:
+        positive: ["veux"]
+        negative: ["ne veux pas"]
+      tu:
+        positive: ["veux"]
+        negative: ["ne veux pas"]
+      il/elle:
+        positive: ["veut"]
+        negative: ["ne veut pas"]
+      nous:
+        positive: ["voulons"]
+        negative: ["ne voulons pas"]
+      vous:
+        positive: ["voulez"]
+        negative: ["ne voulez pas"]
+      ils/elles:
+        positive: ["veulent"]
+        negative: ["ne veulent pas"]
+
+  - id: "006"
+    lemma: "devoir"
+    forms:
+      je:
+        positive: ["dois"]
+        negative: ["ne dois pas"]
+      tu:
+        positive: ["dois"]
+        negative: ["ne dois pas"]
+      il/elle:
+        positive: ["doit"]
+        negative: ["ne doit pas"]
+      nous:
+        positive: ["devons"]
+        negative: ["ne devons pas"]
+      vous:
+        positive: ["devez"]
+        negative: ["ne devez pas"]
+      ils/elles:
+        positive: ["doivent"]
+        negative: ["ne doivent pas"]
+
+  - id: "007"
+    lemma: "manger"
+    forms:
+      je:
+        positive: ["mange"]
+        negative: ["ne mange pas"]
+      tu:
+        positive: ["manges"]
+        negative: ["ne manges pas"]
+      il/elle:
+        positive: ["mange"]
+        negative: ["ne mange pas"]
+      nous:
+        positive: ["mangeons"]
+        negative: ["ne mangeons pas"]
+      vous:
+        positive: ["mangez"]
+        negative: ["ne mangez pas"]
+      ils/elles:
+        positive: ["mangent"]
+        negative: ["ne mangent pas"]
+
+  - id: "008"
+    lemma: "boire"
+    forms:
+      je:
+        positive: ["bois"]
+        negative: ["ne bois pas"]
+      tu:
+        positive: ["bois"]
+        negative: ["ne bois pas"]
+      il/elle:
+        positive: ["boit"]
+        negative: ["ne boit pas"]
+      nous:
+        positive: ["buvons"]
+        negative: ["ne buvons pas"]
+      vous:
+        positive: ["buvez"]
+        negative: ["ne buvez pas"]
+      ils/elles:
+        positive: ["boivent"]
+        negative: ["ne boivent pas"]
+
+  - id: "009"
+    lemma: "parler"
+    forms:
+      je:
+        positive: ["parle"]
+        negative: ["ne parle pas"]
+      tu:
+        positive: ["parles"]
+        negative: ["ne parles pas"]
+      il/elle:
+        positive: ["parle"]
+        negative: ["ne parle pas"]
+      nous:
+        positive: ["parlons"]
+        negative: ["ne parlons pas"]
+      vous:
+        positive: ["parlez"]
+        negative: ["ne parlez pas"]
+      ils/elles:
+        positive: ["parlent"]
+        negative: ["ne parlent pas"]
+
+  - id: "010"
+    lemma: "habiter"
+    forms:
+      je:
+        positive: ["habite"]
+        negative: ["n'habite pas"]
+      tu:
+        positive: ["habites"]
+        negative: ["n'habites pas"]
+      il/elle:
+        positive: ["habite"]
+        negative: ["n'habite pas"]
+      nous:
+        positive: ["habitons"]
+        negative: ["n'habitons pas"]
+      vous:
+        positive: ["habitez"]
+        negative: ["n'habitez pas"]
+      ils/elles:
+        positive: ["habitent"]
+        negative: ["n'habitent pas"]
+
+  - id: "011"
+    lemma: "travailler"
+    forms:
+      je:
+        positive: ["travaille"]
+        negative: ["ne travaille pas"]
+      tu:
+        positive: ["travailles"]
+        negative: ["ne travailles pas"]
+      il/elle:
+        positive: ["travaille"]
+        negative: ["ne travaille pas"]
+      nous:
+        positive: ["travaillons"]
+        negative: ["ne travaillons pas"]
+      vous:
+        positive: ["travaillez"]
+        negative: ["ne travaillez pas"]
+      ils/elles:
+        positive: ["travaillent"]
+        negative: ["ne travaillent pas"]
+
+  - id: "012"
+    lemma: "étudier"
+    forms:
+      je:
+        positive: ["étudie"]
+        negative: ["n'étudie pas"]
+      tu:
+        positive: ["étudies"]
+        negative: ["n'étudies pas"]
+      il/elle:
+        positive: ["étudie"]
+        negative: ["n'étudie pas"]
+      nous:
+        positive: ["étudions"]
+        negative: ["n'étudions pas"]
+      vous:
+        positive: ["étudiez"]
+        negative: ["n'étudiez pas"]
+      ils/elles:
+        positive: ["étudient"]
+        negative: ["n'étudient pas"]

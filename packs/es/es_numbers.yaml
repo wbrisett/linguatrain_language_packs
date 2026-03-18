@@ -1,0 +1,58 @@
+metadata:
+  id: es_numbers
+  version: 1
+  author: "Wayne Brissette"
+  description: Numbers with English variants (digits + word forms)
+  schema_version: 1
+
+entries:
+- id: '001'
+  prompt: zero
+  answer: [cero]
+  alternate_prompts: ['0']
+  phonetic: SEH-ro
+- id: '002'
+  prompt: one
+  answer: [uno]
+  alternate_prompts: ['1']
+  phonetic: OO-no
+- id: '003'
+  prompt: two
+  answer: [dos]
+  alternate_prompts: ['2']
+  phonetic: DOHS
+- id: '004'
+  prompt: three
+  answer: [tres]
+  alternate_prompts: ['3']
+  phonetic: TRES
+- id: '005'
+  prompt: four
+  answer: [cuatro]
+  alternate_prompts: ['4']
+  phonetic: KWA-tro
+- id: '006'
+  prompt: five
+  answer: [cinco]
+  alternate_prompts: ['5']
+  phonetic: SEEN-ko
+- id: '007'
+  prompt: six
+  answer: [seis]
+  alternate_prompts: ['6']
+  phonetic: SAYSS
+- id: '008'
+  prompt: seven
+  answer: [siete]
+  alternate_prompts: ['7']
+  phonetic: SYEH-teh
+- id: '009'
+  prompt: eight
+  answer: [ocho]
+  alternate_prompts: ['8']
+  phonetic: OH-cho
+- id: '010'
+  prompt: nine
+  answer: [nueve]
+  alternate_prompts: ['9']
+  phonetic: NWEH-veh

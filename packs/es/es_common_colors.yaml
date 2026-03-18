@@ -1,0 +1,74 @@
+metadata:
+  id: "es_common_colors"
+  version: 1
+  author: "Wayne Brissette"
+  description: "Common Colors"
+  schema_version: 1
+
+entries:
+- id: '001'
+  prompt:
+  - red
+  answer:
+  - rojo
+  phonetic: RO-ho
+- id: '002'
+  prompt:
+  - blue
+  answer:
+  - azul
+  phonetic: ah-SOOL
+- id: '003'
+  prompt:
+  - green
+  answer:
+  - verde
+  phonetic: VEHR-deh
+- id: '004'
+  prompt:
+  - yellow
+  answer:
+  - amarillo
+  phonetic: ah-mah-REE-yo
+- id: '005'
+  prompt:
+  - orange (color)
+  answer:
+  - naranja
+  phonetic: nah-RAHN-hah
+- id: '006'
+  prompt:
+  - black
+  answer:
+  - negro
+  phonetic: NEH-gro
+- id: '007'
+  prompt:
+  - white
+  answer:
+  - blanco
+  phonetic: BLAHN-ko
+- id: '008'
+  prompt:
+  - gray
+  answer:
+  - gris
+  phonetic: GREES
+- id: '009'
+  prompt:
+  - brown
+  answer:
+  - marrón
+  phonetic: mah-ROHN
+- id: '010'
+  prompt:
+  - pink
+  answer:
+  - rosa
+  phonetic: RO-sa
+- id: '011'
+  prompt:
+  - purple
+  answer:
+  - morado
+  phonetic: mo-RAH-do

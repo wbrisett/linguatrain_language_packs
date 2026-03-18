@@ -1,0 +1,74 @@
+metadata:
+  id: "es_transform"
+  version: 1
+  drill_type: "transform"
+  author: "Wayne Brissette"
+  description: "Starter sentence transformation drills for Spanish."
+  schema_version: 1
+  # shuffle_cues: true
+  # Use shuffle_cues to randomize cue order during practice
+
+entries:
+  - id: "001"
+    prompt: "Yo como una manzana."
+    cues:
+      - cue: "ayer"
+        steps:
+          - transform: "past"
+            answer:
+              - "Yo comí una manzana ayer."
+
+  - id: "002"
+    prompt: "Yo bebo café."
+    cues:
+      - cue: "no"
+        steps:
+          - transform: "negative"
+            answer:
+              - "Yo no bebo café."
+
+  - id: "003"
+    prompt: "Tú vives en Helsinki."
+    cues:
+      - cue: "pregunta"
+        steps:
+          - transform: "question"
+            answer:
+              - "¿Vives en Helsinki?"
+
+  - id: "004"
+    prompt: "Yo hablo español."
+    cues:
+      - cue: "él"
+        steps:
+          - transform: "person_change"
+            answer:
+              - "Él habla español."
+
+  - id: "005"
+    prompt: "Nosotros vamos a la tienda."
+    cues:
+      - cue: "mañana"
+        steps:
+          - transform: "future_context"
+            answer:
+              - "Nosotros vamos a la tienda mañana."
+      - cue: "ayer"
+        steps:
+          - transform: "past"
+            answer:
+              - "Nosotros fuimos a la tienda ayer."
+
+  - id: "006"
+    prompt: "Yo quiero esto."
+    cues:
+      - cue: "eso"
+        steps:
+          - transform: "object_change"
+            answer:
+              - "Yo quiero eso."
+      - cue: "lo"
+        steps:
+          - transform: "object_change"
+            answer:
+              - "Yo lo quiero."

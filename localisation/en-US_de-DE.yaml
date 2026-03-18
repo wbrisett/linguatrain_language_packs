@@ -1,0 +1,34 @@
+meta:
+  id: "de-DE_ui"
+  name: "German UI (auto labels)"
+
+languages:
+  source:
+    code: "en-US"
+    name: "English"
+  target:
+    code: "de-DE"
+    name: "German"
+
+tts:
+  template: "Auf Deutsch: {text}."
+
+ui:
+  quiz_label: "Quiz"
+  correct: "✅ Richtig!"
+  try_again: "❌ Versuch es noch einmal."
+  replay_hint: "🔁 (Drücke 'r', um das Audio zu wiederholen)"
+  also_accepted_prefix: "➕ Auch akzeptiert:"
+  phonetic_prefix: "🗣 Aussprache:"
+  prompt_prefix: "auto"
+  target_prefix: "auto"
+  correct_answer_prefix: "📘 Richtige Antwort:"
+  correct_word_prefix: "📘 Richtiges Wort:"
+  quit_message: "👋 Beenden. Danke!"
+  no_mistakes: "😊 Keine Fehler — sehr gut!"
+  printed_voice_prefix: "🗣 laut gesprochen:"
+  #transform_positive_instruction: "Gib die positive Form an:"
+  #transform_negative_instruction: "Gib die negative Form an:"
+  #conjugate_positive_instruction: "Gib die positive Form an:"
+  #conjugate_negative_instruction: "Gib die negative Form an:"
+  #conjugate_prompt: "Konjugiere das Verb."

@@ -1,0 +1,74 @@
+metadata:
+  id: "fr_transform"
+  version: 1
+  drill_type: "transform"
+  author: "Wayne Brissette"
+  description: "Starter sentence transformation drills for French."
+  schema_version: 1
+  # shuffle_cues: true
+  # Use shuffle_cues to randomize cue order during practice
+
+entries:
+  - id: "001"
+    prompt: "Je mange une pomme."
+    cues:
+      - cue: "hier"
+        steps:
+          - transform: "past"
+            answer:
+              - "J'ai mangé une pomme hier."
+
+  - id: "002"
+    prompt: "Je bois du café."
+    cues:
+      - cue: "ne ... pas"
+        steps:
+          - transform: "negative"
+            answer:
+              - "Je ne bois pas de café."
+
+  - id: "003"
+    prompt: "Tu habites à Helsinki."
+    cues:
+      - cue: "question"
+        steps:
+          - transform: "question"
+            answer:
+              - "Habites-tu à Helsinki ?"
+
+  - id: "004"
+    prompt: "Je parle français."
+    cues:
+      - cue: "il"
+        steps:
+          - transform: "person_change"
+            answer:
+              - "Il parle français."
+
+  - id: "005"
+    prompt: "Nous allons au magasin."
+    cues:
+      - cue: "demain"
+        steps:
+          - transform: "future_context"
+            answer:
+              - "Nous allons au magasin demain."
+      - cue: "hier"
+        steps:
+          - transform: "past"
+            answer:
+              - "Nous sommes allés au magasin hier."
+
+  - id: "006"
+    prompt: "Je veux ceci."
+    cues:
+      - cue: "cela"
+        steps:
+          - transform: "object_change"
+            answer:
+              - "Je veux cela."
+      - cue: "ça"
+        steps:
+          - transform: "object_change"
+            answer:
+              - "Je veux ça."

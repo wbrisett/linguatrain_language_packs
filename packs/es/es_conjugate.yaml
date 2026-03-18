@@ -1,0 +1,304 @@
+metadata:
+  id: "es_conjugate"
+  version: 1
+  drill_type: "conjugate"
+  author: "Wayne Brissette"
+  description: "Starter conjugation drills for Spanish."
+  schema_version: 1
+  # shuffle_persons: true
+  # Use shuffle_persons to enable random person order when practicing.
+
+persons:
+  - "yo"
+  - "tú"
+  - "él/ella/usted"
+  - "nosotros"
+  - "vosotros"
+  - "ellos/ellas/ustedes"
+
+entries:
+  - id: "001"
+    lemma: "ser"
+    forms:
+      yo:
+        positive: ["soy"]
+        negative: ["no soy"]
+      tú:
+        positive: ["eres"]
+        negative: ["no eres"]
+      él/ella/usted:
+        positive: ["es"]
+        negative: ["no es"]
+      nosotros:
+        positive: ["somos"]
+        negative: ["no somos"]
+      vosotros:
+        positive: ["sois"]
+        negative: ["no sois"]
+      ellos/ellas/ustedes:
+        positive: ["son"]
+        negative: ["no son"]
+
+  - id: "002"
+    lemma: "estar"
+    forms:
+      yo:
+        positive: ["estoy"]
+        negative: ["no estoy"]
+      tú:
+        positive: ["estás"]
+        negative: ["no estás"]
+      él/ella/usted:
+        positive: ["está"]
+        negative: ["no está"]
+      nosotros:
+        positive: ["estamos"]
+        negative: ["no estamos"]
+      vosotros:
+        positive: ["estáis"]
+        negative: ["no estáis"]
+      ellos/ellas/ustedes:
+        positive: ["están"]
+        negative: ["no están"]
+
+  - id: "003"
+    lemma: "tener"
+    forms:
+      yo:
+        positive: ["tengo"]
+        negative: ["no tengo"]
+      tú:
+        positive: ["tienes"]
+        negative: ["no tienes"]
+      él/ella/usted:
+        positive: ["tiene"]
+        negative: ["no tiene"]
+      nosotros:
+        positive: ["tenemos"]
+        negative: ["no tenemos"]
+      vosotros:
+        positive: ["tenéis"]
+        negative: ["no tenéis"]
+      ellos/ellas/ustedes:
+        positive: ["tienen"]
+        negative: ["no tienen"]
+
+  - id: "004"
+    lemma: "ir"
+    forms:
+      yo:
+        positive: ["voy"]
+        negative: ["no voy"]
+      tú:
+        positive: ["vas"]
+        negative: ["no vas"]
+      él/ella/usted:
+        positive: ["va"]
+        negative: ["no va"]
+      nosotros:
+        positive: ["vamos"]
+        negative: ["no vamos"]
+      vosotros:
+        positive: ["vais"]
+        negative: ["no vais"]
+      ellos/ellas/ustedes:
+        positive: ["van"]
+        negative: ["no van"]
+
+  - id: "005"
+    lemma: "venir"
+    forms:
+      yo:
+        positive: ["vengo"]
+        negative: ["no vengo"]
+      tú:
+        positive: ["vienes"]
+        negative: ["no vienes"]
+      él/ella/usted:
+        positive: ["viene"]
+        negative: ["no viene"]
+      nosotros:
+        positive: ["venimos"]
+        negative: ["no venimos"]
+      vosotros:
+        positive: ["venís"]
+        negative: ["no venís"]
+      ellos/ellas/ustedes:
+        positive: ["vienen"]
+        negative: ["no vienen"]
+
+  - id: "006"
+    lemma: "querer"
+    forms:
+      yo:
+        positive: ["quiero"]
+        negative: ["no quiero"]
+      tú:
+        positive: ["quieres"]
+        negative: ["no quieres"]
+      él/ella/usted:
+        positive: ["quiere"]
+        negative: ["no quiere"]
+      nosotros:
+        positive: ["queremos"]
+        negative: ["no queremos"]
+      vosotros:
+        positive: ["queréis"]
+        negative: ["no queréis"]
+      ellos/ellas/ustedes:
+        positive: ["quieren"]
+        negative: ["no quieren"]
+
+  - id: "007"
+    lemma: "necesitar"
+    forms:
+      yo:
+        positive: ["necesito"]
+        negative: ["no necesito"]
+      tú:
+        positive: ["necesitas"]
+        negative: ["no necesitas"]
+      él/ella/usted:
+        positive: ["necesita"]
+        negative: ["no necesita"]
+      nosotros:
+        positive: ["necesitamos"]
+        negative: ["no necesitamos"]
+      vosotros:
+        positive: ["necesitáis"]
+        negative: ["no necesitáis"]
+      ellos/ellas/ustedes:
+        positive: ["necesitan"]
+        negative: ["no necesitan"]
+
+  - id: "008"
+    lemma: "comer"
+    forms:
+      yo:
+        positive: ["como"]
+        negative: ["no como"]
+      tú:
+        positive: ["comes"]
+        negative: ["no comes"]
+      él/ella/usted:
+        positive: ["come"]
+        negative: ["no come"]
+      nosotros:
+        positive: ["comemos"]
+        negative: ["no comemos"]
+      vosotros:
+        positive: ["coméis"]
+        negative: ["no coméis"]
+      ellos/ellas/ustedes:
+        positive: ["comen"]
+        negative: ["no comen"]
+
+  - id: "009"
+    lemma: "beber"
+    forms:
+      yo:
+        positive: ["bebo"]
+        negative: ["no bebo"]
+      tú:
+        positive: ["bebes"]
+        negative: ["no bebes"]
+      él/ella/usted:
+        positive: ["bebe"]
+        negative: ["no bebe"]
+      nosotros:
+        positive: ["bebemos"]
+        negative: ["no bebemos"]
+      vosotros:
+        positive: ["bebéis"]
+        negative: ["no bebéis"]
+      ellos/ellas/ustedes:
+        positive: ["beben"]
+        negative: ["no beben"]
+
+  - id: "010"
+    lemma: "hablar"
+    forms:
+      yo:
+        positive: ["hablo"]
+        negative: ["no hablo"]
+      tú:
+        positive: ["hablas"]
+        negative: ["no hablas"]
+      él/ella/usted:
+        positive: ["habla"]
+        negative: ["no habla"]
+      nosotros:
+        positive: ["hablamos"]
+        negative: ["no hablamos"]
+      vosotros:
+        positive: ["habláis"]
+        negative: ["no habláis"]
+      ellos/ellas/ustedes:
+        positive: ["hablan"]
+        negative: ["no hablan"]
+
+  - id: "011"
+    lemma: "vivir"
+    forms:
+      yo:
+        positive: ["vivo"]
+        negative: ["no vivo"]
+      tú:
+        positive: ["vives"]
+        negative: ["no vives"]
+      él/ella/usted:
+        positive: ["vive"]
+        negative: ["no vive"]
+      nosotros:
+        positive: ["vivimos"]
+        negative: ["no vivimos"]
+      vosotros:
+        positive: ["vivís"]
+        negative: ["no vivís"]
+      ellos/ellas/ustedes:
+        positive: ["viven"]
+        negative: ["no viven"]
+
+  - id: "012"
+    lemma: "trabajar"
+    forms:
+      yo:
+        positive: ["trabajo"]
+        negative: ["no trabajo"]
+      tú:
+        positive: ["trabajas"]
+        negative: ["no trabajas"]
+      él/ella/usted:
+        positive: ["trabaja"]
+        negative: ["no trabaja"]
+      nosotros:
+        positive: ["trabajamos"]
+        negative: ["no trabajamos"]
+      vosotros:
+        positive: ["trabajáis"]
+        negative: ["no trabajáis"]
+      ellos/ellas/ustedes:
+        positive: ["trabajan"]
+        negative: ["no trabajan"]
+
+  - id: "013"
+    lemma: "estudiar"
+    forms:
+      yo:
+        positive: ["estudio"]
+        negative: ["no estudio"]
+      tú:
+        positive: ["estudias"]
+        negative: ["no estudias"]
+      él/ella/usted:
+        positive: ["estudia"]
+        negative: ["no estudia"]
+      nosotros:
+        positive: ["estudiamos"]
+        negative: ["no estudiamos"]
+      vosotros:
+        positive: ["estudiáis"]
+        negative: ["no estudiáis"]
+      ellos/ellas/ustedes:
+        positive: ["estudian"]
+        negative: ["no estudian"]

@@ -1,0 +1,109 @@
+---
+metadata:
+  id: "es_days_and_months"
+  version: 1
+  author: "Wayne Brissette"
+  description: "months and day of the week"
+  schema_version: 1
+
+entries:
+
+  - id: "001"
+    prompt: "Monday"
+    answer: [lunes]
+    phonetic: LOO-ness
+
+  - id: "002"
+    prompt: "Tuesday"
+    answer: [martes]
+    phonetic: MAR-tess
+
+  - id: "003"
+    prompt: "Wednesday"
+    answer: [miércoles]
+    phonetic: MYER-koh-less
+
+  - id: "004"
+    prompt: "Thursday"
+    answer: [jueves]
+    phonetic: HWEH-vess
+
+  - id: "005"
+    prompt: "Friday"
+    answer: [viernes]
+    phonetic: VYEHR-ness
+
+  - id: "006"
+    prompt: "Saturday"
+    answer: [sábado]
+    phonetic: SAH-bah-doh
+
+  - id: "007"
+    prompt: "Sunday"
+    answer: [domingo]
+    phonetic: doh-MEEN-goh
+
+  - id: "008"
+    prompt: "Weekend"
+    answer: [fin de semana]
+    phonetic: FEEN deh seh-MAH-nah
+
+  - id: "009"
+    prompt: "January"
+    answer: [enero]
+    phonetic: eh-NEH-ro
+
+  - id: "010"
+    prompt: "February"
+    answer: [febrero]
+    phonetic: feh-BREH-ro
+
+  - id: "011"
+    prompt: "March"
+    answer: [marzo]
+    phonetic: MAR-thoh
+
+  - id: "012"
+    prompt: "April"
+    answer: [abril]
+    phonetic: ah-BREEL
+
+  - id: "013"
+    prompt: "May"
+    answer: [mayo]
+    phonetic: MY-oh
+
+  - id: "014"
+    prompt: "June"
+    answer: [junio]
+    phonetic: HOO-nee-oh
+
+  - id: "015"
+    prompt: "July"
+    answer: [julio]
+    phonetic: HOO-lee-oh
+
+  - id: "016"
+    prompt: "August"
+    answer: [agosto]
+    phonetic: ah-GOHS-toh
+
+  - id: "017"
+    prompt: "September"
+    answer: [septiembre]
+    phonetic: sep-TYEHM-breh
+
+  - id: "018"
+    prompt: "October"
+    answer: [octubre]
+    phonetic: ok-TOO-breh
+
+  - id: "019"
+    prompt: "November"
+    answer: [noviembre]
+    phonetic: noh-VYEHM-breh
+
+  - id: "020"
+    prompt: "December"
+    answer: [diciembre]
+    phonetic: dee-SYEHM-breh

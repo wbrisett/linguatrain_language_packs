@@ -1,0 +1,34 @@
+meta:
+  id: "es-MX_ui"
+  name: "Spanish UI (auto labels)"
+
+languages:
+  source:
+    code: "en-US"
+    name: "English"
+  target:
+    code: "es-MX"
+    name: "Spanish"
+
+tts:
+  template: "En español: {text}."
+
+ui:
+  quiz_label: "Quiz"
+  correct: "✅ ¡Correcto!"
+  try_again: "❌ Inténtalo de nuevo."
+  replay_hint: "🔁 (Escribe 'r' para repetir el audio)"
+  also_accepted_prefix: "➕ También válido:"
+  phonetic_prefix: "🗣 pronunciación:"
+  prompt_prefix: "auto"
+  target_prefix: "auto"
+  correct_answer_prefix: "📘 Respuesta correcta:"
+  correct_word_prefix: "📘 Palabra correcta:"
+  quit_message: "👋 Terminamos. ¡Gracias!"
+  no_mistakes: "😊 Sin errores — ¡muy bien!"
+  printed_voice_prefix: "🗣 en voz alta:"
+  #transform_positive_instruction: "Da la forma afirmativa:"
+  #transform_negative_instruction: "Da la forma negativa:"
+  #conjugate_positive_instruction: "Da la forma afirmativa:"
+  #conjugate_negative_instruction: "Da la forma negativa:"
+  #conjugate_prompt: "Conjuga el verbo."

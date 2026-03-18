@@ -1,0 +1,282 @@
+metadata:
+  id: "de_conjugate"
+  version: 1
+  drill_type: "conjugate"
+  author: "Wayne Brissette"
+  description: "Starter conjugation drills for German."
+  schema_version: 1
+  # shuffle_persons: true
+  # Use shuffle_persons to enable random person order when practicing.
+
+persons:
+  - "ich"
+  - "du"
+  - "er/sie/es"
+  - "wir"
+  - "ihr"
+  - "sie/Sie"
+
+entries:
+  - id: "001"
+    lemma: "sein"
+    forms:
+      ich:
+        positive: ["bin"]
+        negative: ["bin nicht"]
+      du:
+        positive: ["bist"]
+        negative: ["bist nicht"]
+      er/sie/es:
+        positive: ["ist"]
+        negative: ["ist nicht"]
+      wir:
+        positive: ["sind"]
+        negative: ["sind nicht"]
+      ihr:
+        positive: ["seid"]
+        negative: ["seid nicht"]
+      sie/Sie:
+        positive: ["sind"]
+        negative: ["sind nicht"]
+
+  - id: "002"
+    lemma: "haben"
+    forms:
+      ich:
+        positive: ["habe"]
+        negative: ["habe nicht"]
+      du:
+        positive: ["hast"]
+        negative: ["hast nicht"]
+      er/sie/es:
+        positive: ["hat"]
+        negative: ["hat nicht"]
+      wir:
+        positive: ["haben"]
+        negative: ["haben nicht"]
+      ihr:
+        positive: ["habt"]
+        negative: ["habt nicht"]
+      sie/Sie:
+        positive: ["haben"]
+        negative: ["haben nicht"]
+
+  - id: "003"
+    lemma: "gehen"
+    forms:
+      ich:
+        positive: ["gehe"]
+        negative: ["gehe nicht"]
+      du:
+        positive: ["gehst"]
+        negative: ["gehst nicht"]
+      er/sie/es:
+        positive: ["geht"]
+        negative: ["geht nicht"]
+      wir:
+        positive: ["gehen"]
+        negative: ["gehen nicht"]
+      ihr:
+        positive: ["geht"]
+        negative: ["geht nicht"]
+      sie/Sie:
+        positive: ["gehen"]
+        negative: ["gehen nicht"]
+
+  - id: "004"
+    lemma: "kommen"
+    forms:
+      ich:
+        positive: ["komme"]
+        negative: ["komme nicht"]
+      du:
+        positive: ["kommst"]
+        negative: ["kommst nicht"]
+      er/sie/es:
+        positive: ["kommt"]
+        negative: ["kommt nicht"]
+      wir:
+        positive: ["kommen"]
+        negative: ["kommen nicht"]
+      ihr:
+        positive: ["kommt"]
+        negative: ["kommt nicht"]
+      sie/Sie:
+        positive: ["kommen"]
+        negative: ["kommen nicht"]
+
+  - id: "005"
+    lemma: "wollen"
+    forms:
+      ich:
+        positive: ["will"]
+        negative: ["will nicht"]
+      du:
+        positive: ["willst"]
+        negative: ["willst nicht"]
+      er/sie/es:
+        positive: ["will"]
+        negative: ["will nicht"]
+      wir:
+        positive: ["wollen"]
+        negative: ["wollen nicht"]
+      ihr:
+        positive: ["wollt"]
+        negative: ["wollt nicht"]
+      sie/Sie:
+        positive: ["wollen"]
+        negative: ["wollen nicht"]
+
+  - id: "006"
+    lemma: "brauchen"
+    forms:
+      ich:
+        positive: ["brauche"]
+        negative: ["brauche nicht"]
+      du:
+        positive: ["brauchst"]
+        negative: ["brauchst nicht"]
+      er/sie/es:
+        positive: ["braucht"]
+        negative: ["braucht nicht"]
+      wir:
+        positive: ["brauchen"]
+        negative: ["brauchen nicht"]
+      ihr:
+        positive: ["braucht"]
+        negative: ["braucht nicht"]
+      sie/Sie:
+        positive: ["brauchen"]
+        negative: ["brauchen nicht"]
+
+  - id: "007"
+    lemma: "essen"
+    forms:
+      ich:
+        positive: ["esse"]
+        negative: ["esse nicht"]
+      du:
+        positive: ["isst"]
+        negative: ["isst nicht"]
+      er/sie/es:
+        positive: ["isst"]
+        negative: ["isst nicht"]
+      wir:
+        positive: ["essen"]
+        negative: ["essen nicht"]
+      ihr:
+        positive: ["esst"]
+        negative: ["esst nicht"]
+      sie/Sie:
+        positive: ["essen"]
+        negative: ["essen nicht"]
+
+  - id: "008"
+    lemma: "trinken"
+    forms:
+      ich:
+        positive: ["trinke"]
+        negative: ["trinke nicht"]
+      du:
+        positive: ["trinkst"]
+        negative: ["trinkst nicht"]
+      er/sie/es:
+        positive: ["trinkt"]
+        negative: ["trinkt nicht"]
+      wir:
+        positive: ["trinken"]
+        negative: ["trinken nicht"]
+      ihr:
+        positive: ["trinkt"]
+        negative: ["trinkt nicht"]
+      sie/Sie:
+        positive: ["trinken"]
+        negative: ["trinken nicht"]
+
+  - id: "009"
+    lemma: "sprechen"
+    forms:
+      ich:
+        positive: ["spreche"]
+        negative: ["spreche nicht"]
+      du:
+        positive: ["sprichst"]
+        negative: ["sprichst nicht"]
+      er/sie/es:
+        positive: ["spricht"]
+        negative: ["spricht nicht"]
+      wir:
+        positive: ["sprechen"]
+        negative: ["sprechen nicht"]
+      ihr:
+        positive: ["sprecht"]
+        negative: ["sprecht nicht"]
+      sie/Sie:
+        positive: ["sprechen"]
+        negative: ["sprechen nicht"]
+
+  - id: "010"
+    lemma: "wohnen"
+    forms:
+      ich:
+        positive: ["wohne"]
+        negative: ["wohne nicht"]
+      du:
+        positive: ["wohnst"]
+        negative: ["wohnst nicht"]
+      er/sie/es:
+        positive: ["wohnt"]
+        negative: ["wohnt nicht"]
+      wir:
+        positive: ["wohnen"]
+        negative: ["wohnen nicht"]
+      ihr:
+        positive: ["wohnt"]
+        negative: ["wohnt nicht"]
+      sie/Sie:
+        positive: ["wohnen"]
+        negative: ["wohnen nicht"]
+
+  - id: "011"
+    lemma: "arbeiten"
+    forms:
+      ich:
+        positive: ["arbeite"]
+        negative: ["arbeite nicht"]
+      du:
+        positive: ["arbeitest"]
+        negative: ["arbeitest nicht"]
+      er/sie/es:
+        positive: ["arbeitet"]
+        negative: ["arbeitet nicht"]
+      wir:
+        positive: ["arbeiten"]
+        negative: ["arbeiten nicht"]
+      ihr:
+        positive: ["arbeitet"]
+        negative: ["arbeitet nicht"]
+      sie/Sie:
+        positive: ["arbeiten"]
+        negative: ["arbeiten nicht"]
+
+  - id: "012"
+    lemma: "lernen"
+    forms:
+      ich:
+        positive: ["lerne"]
+        negative: ["lerne nicht"]
+      du:
+        positive: ["lernst"]
+        negative: ["lernst nicht"]
+      er/sie/es:
+        positive: ["lernt"]
+        negative: ["lernt nicht"]
+      wir:
+        positive: ["lernen"]
+        negative: ["lernen nicht"]
+      ihr:
+        positive: ["lernt"]
+        negative: ["lernt nicht"]
+      sie/Sie:
+        positive: ["lernen"]
+        negative: ["lernen nicht"]

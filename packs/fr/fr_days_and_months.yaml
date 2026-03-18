@@ -1,0 +1,109 @@
+---
+metadata:
+  id: "fr_days_and_months"
+  version: 1
+  author: "Wayne Brissette"
+  description: "months and day of the week"
+  schema_version: 1
+
+entries:
+
+  - id: "001"
+    prompt: "Monday"
+    answer: [lundi]
+    phonetic: lun-DEE
+
+  - id: "002"
+    prompt: "Tuesday"
+    answer: [mardi]
+    phonetic: mar-DEE
+
+  - id: "003"
+    prompt: "Wednesday"
+    answer: [mercredi]
+    phonetic: mehr-kruh-DEE
+
+  - id: "004"
+    prompt: "Thursday"
+    answer: [jeudi]
+    phonetic: zhuh-DEE
+
+  - id: "005"
+    prompt: "Friday"
+    answer: [vendredi]
+    phonetic: vahn-druh-DEE
+
+  - id: "006"
+    prompt: "Saturday"
+    answer: [samedi]
+    phonetic: sahm-DEE
+
+  - id: "007"
+    prompt: "Sunday"
+    answer: [dimanche]
+    phonetic: dee-MAHNSH
+
+  - id: "008"
+    prompt: "Weekend"
+    answer: [week-end]
+    phonetic: week-END
+
+  - id: "009"
+    prompt: "January"
+    answer: [janvier]
+    phonetic: zhahn-vyay
+
+  - id: "010"
+    prompt: "February"
+    answer: [février]
+    phonetic: fay-vree-yay
+
+  - id: "011"
+    prompt: "March"
+    answer: [mars]
+    phonetic: MAHR
+
+  - id: "012"
+    prompt: "April"
+    answer: [avril]
+    phonetic: ah-VREEL
+
+  - id: "013"
+    prompt: "May"
+    answer: [mai]
+    phonetic: MAY
+
+  - id: "014"
+    prompt: "June"
+    answer: [juin]
+    phonetic: ZHWAHN
+
+  - id: "015"
+    prompt: "July"
+    answer: [juillet]
+    phonetic: zhwee-YAY
+
+  - id: "016"
+    prompt: "August"
+    answer: [août]
+    phonetic: OOT
+
+  - id: "017"
+    prompt: "September"
+    answer: [septembre]
+    phonetic: sep-TAHM-bruh
+
+  - id: "018"
+    prompt: "October"
+    answer: [octobre]
+    phonetic: ok-TOBR
+
+  - id: "019"
+    prompt: "November"
+    answer: [novembre]
+    phonetic: noh-VAHM-bruh
+
+  - id: "020"
+    prompt: "December"
+    answer: [décembre]
+    phonetic: day-SAHM-bruh

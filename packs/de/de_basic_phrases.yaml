@@ -1,0 +1,133 @@
+metadata:
+  id: "de_basics"
+  version: 1
+  schema_version: 1
+  author: "Wayne Brissette"
+  description: "Starter basics pack for German."
+
+entries:
+  - id: "001"
+    prompt: "Hello"
+    answer:
+      - "Hallo"
+    phonetic: "HAH-loh"
+
+  - id: "002"
+    prompt: "Good morning"
+    answer:
+      - "Guten Morgen"
+    phonetic: "GOO-ten MOR-gen"
+
+  - id: "003"
+    prompt: "How are you?"
+    answer:
+      - "Wie geht es Ihnen?"
+    phonetic: "VEE gayt es EE-nen"
+
+  - id: "004"
+    prompt: "I'm fine, thank you"
+    answer:
+      - "Mir geht es gut, danke"
+    phonetic: "Meer gayt es goot, DAHN-keh"
+
+  - id: "005"
+    prompt: "Excuse me"
+    answer:
+      - "Entschuldigung"
+    phonetic: "ent-SHOOL-dee-goong"
+
+  - id: "006"
+    prompt: "Sorry"
+    answer:
+      - "Es tut mir leid"
+    phonetic: "es toot meer lite"
+
+  - id: "007"
+    prompt: "Please"
+    answer:
+      - "Bitte"
+    phonetic: "BIT-teh"
+
+  - id: "008"
+    prompt: "Thank you"
+    answer:
+      - "Danke"
+    phonetic: "DAHN-keh"
+
+  - id: "009"
+    prompt: "Do you speak English?"
+    answer:
+      - "Sprechen Sie Englisch?"
+    phonetic: "SHPREKH-en zee ENG-lish"
+
+  - id: "010"
+    prompt: "Do you speak German?"
+    answer:
+      - "Sprechen Sie Deutsch?"
+    phonetic: "SHPREKH-en zee DOYTCH"
+
+  - id: "011"
+    prompt: "I don't understand"
+    answer:
+      - "Ich verstehe nicht"
+    phonetic: "ikh fer-SHTAY-eh nikht"
+
+  - id: "012"
+    prompt: "Where is the bathroom?"
+    answer:
+      - "Wo ist die Toilette?"
+    phonetic: "voh ist dee twah-LET-teh"
+
+  - id: "013"
+    prompt: "How much does this cost?"
+    answer:
+      - "Wie viel kostet das?"
+    phonetic: "vee feel KOS-tet dahs"
+
+  - id: "014"
+    prompt: "I would like this"
+    answer:
+      - "Ich hätte das gern"
+    phonetic: "ikh HET-teh dahs gern"
+
+  - id: "015"
+    prompt: "Can you help me?"
+    answer:
+      - "Können Sie mir helfen?"
+    phonetic: "KUR-nen zee meer HEL-fen"
+
+  - id: "016"
+    prompt: "What time is it?"
+    answer:
+      - "Wie spät ist es?"
+    phonetic: "vee shpait ist es"
+
+  - id: "017"
+    prompt: "Where is the train station?"
+    answer:
+      - "Wo ist der Bahnhof?"
+    phonetic: "voh ist dare BAHN-hohf"
+
+  - id: "018"
+    prompt: "I live in..."
+    answer:
+      - "Ich wohne in..."
+    phonetic: "ikh VOH-neh in"
+
+  - id: "019"
+    prompt: "I am learning German"
+    answer:
+      - "Ich lerne Deutsch"
+    phonetic: "ikh LEHR-neh DOYTCH"
+
+  - id: "020"
+    prompt: "Can you repeat that?"
+    answer:
+      - "Können Sie das wiederholen?"
+    phonetic: "KUR-nen zee dahs VEE-der-hoh-len"
+
+  - id: "021"
+    prompt: "What is this?"
+    answer:
+      - "Was ist das?"
+    phonetic: "vahs ist dahs"

@@ -1,0 +1,74 @@
+metadata:
+  id: "de_common_colors"
+  version: 1
+  author: "Wayne Brissette"
+  description: "Common Colors"
+  schema_version: 1
+
+entries:
+- id: '001'
+  prompt:
+  - red
+  answer:
+  - rot
+  phonetic: ROHT
+- id: '002'
+  prompt:
+  - blue
+  answer:
+  - blau
+  phonetic: BLAU
+- id: '003'
+  prompt:
+  - green
+  answer:
+  - grün
+  phonetic: GRUEN
+- id: '004'
+  prompt:
+  - yellow
+  answer:
+  - gelb
+  phonetic: GELB
+- id: '005'
+  prompt:
+  - orange (color)
+  answer:
+  - orange
+  phonetic: OH-RAHN-zhuh
+- id: '006'
+  prompt:
+  - black
+  answer:
+  - schwarz
+  phonetic: SHVARTS
+- id: '007'
+  prompt:
+  - white
+  answer:
+  - weiß
+  phonetic: VAISS
+- id: '008'
+  prompt:
+  - gray
+  answer:
+  - grau
+  phonetic: GRAU
+- id: '009'
+  prompt:
+  - brown
+  answer:
+  - braun
+  phonetic: BROWN
+- id: '010'
+  prompt:
+  - pink
+  answer:
+  - pink
+  phonetic: PINK
+- id: '011'
+  prompt:
+  - purple
+  answer:
+  - lila
+  phonetic: LEE-lad

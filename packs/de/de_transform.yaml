@@ -1,0 +1,74 @@
+metadata:
+  id: "de_transform"
+  version: 1
+  drill_type: "transform"
+  author: "Wayne Brissette"
+  description: "Starter sentence transformation drills for German."
+  schema_version: 1
+  # shuffle_cues: true
+  # Use shuffle_cues to randomize cue order during practice
+
+entries:
+  - id: "001"
+    prompt: "Ich esse einen Apfel."
+    cues:
+      - cue: "gestern"
+        steps:
+          - transform: "past"
+            answer:
+              - "Ich habe gestern einen Apfel gegessen."
+
+  - id: "002"
+    prompt: "Ich trinke Kaffee."
+    cues:
+      - cue: "nicht"
+        steps:
+          - transform: "negative"
+            answer:
+              - "Ich trinke keinen Kaffee."
+
+  - id: "003"
+    prompt: "Du wohnst in Helsinki."
+    cues:
+      - cue: "Frage"
+        steps:
+          - transform: "question"
+            answer:
+              - "Wohnst du in Helsinki?"
+
+  - id: "004"
+    prompt: "Ich spreche Deutsch."
+    cues:
+      - cue: "er"
+        steps:
+          - transform: "person_change"
+            answer:
+              - "Er spricht Deutsch."
+
+  - id: "005"
+    prompt: "Wir gehen in den Laden."
+    cues:
+      - cue: "morgen"
+        steps:
+          - transform: "future_context"
+            answer:
+              - "Wir gehen morgen in den Laden."
+      - cue: "gestern"
+        steps:
+          - transform: "past"
+            answer:
+              - "Wir sind gestern in den Laden gegangen."
+
+  - id: "006"
+    prompt: "Ich will das."
+    cues:
+      - cue: "das da"
+        steps:
+          - transform: "object_change"
+            answer:
+              - "Ich will das da."
+      - cue: "es"
+        steps:
+          - transform: "object_change"
+            answer:
+              - "Ich will es."

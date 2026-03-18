@@ -1,0 +1,218 @@
+metadata:
+  id: de_numbers
+  version: 1
+  author: "Wayne Brissette"
+  description: Numbers with English variants (digits + word forms)
+  schema_version: 1
+
+entries:
+- id: '001'
+  prompt: zero
+  answer: [null]
+  alternate_prompts: ['0']
+  phonetic: NOOL
+- id: '002'
+  prompt: one
+  answer: [eins]
+  alternate_prompts: ['1']
+  phonetic: EYNS
+- id: '003'
+  prompt: two
+  answer: [zwei]
+  alternate_prompts: ['2']
+  phonetic: TSVAI
+- id: '004'
+  prompt: three
+  answer: [drei]
+  alternate_prompts: ['3']
+  phonetic: DRY
+- id: '005'
+  prompt: four
+  answer: [vier]
+  alternate_prompts: ['4']
+  phonetic: FEER
+- id: '006'
+  prompt: five
+  answer: [fünf]
+  alternate_prompts: ['5']
+  phonetic: FUENF
+- id: '007'
+  prompt: six
+  answer: [sechs]
+  alternate_prompts: ['6']
+  phonetic: ZEKS
+- id: '008'
+  prompt: seven
+  answer: [sieben]
+  alternate_prompts: ['7']
+  phonetic: ZEE-ben
+- id: '009'
+  prompt: eight
+  answer: [acht]
+  alternate_prompts: ['8']
+  phonetic: AHKT
+- id: '010'
+  prompt: nine
+  answer: [neun]
+  alternate_prompts: ['9']
+  phonetic: NOYN
+- id: '011'
+  prompt: ten
+  answer: [zehn]
+  alternate_prompts: ['10']
+  phonetic: TSEHN
+- id: '012'
+  prompt: eleven
+  answer: [elf]
+  alternate_prompts: ['11']
+  phonetic: ELF
+- id: '013'
+  prompt: twelve
+  answer: [zwölf]
+  alternate_prompts: ['12']
+  phonetic: TSVOELF
+- id: '014'
+  prompt: thirteen
+  answer: [dreizehn]
+  alternate_prompts: ['13']
+  phonetic: DRY-tsayn
+- id: '015'
+  prompt: fourteen
+  answer: [vierzehn]
+  alternate_prompts: ['14']
+  phonetic: FEER-tsayn
+- id: '016'
+  prompt: fifteen
+  answer: [fünfzehn]
+  alternate_prompts: ['15']
+  phonetic: FUENF-tsayn
+- id: '017'
+  prompt: sixteen
+  answer: [sechzehn]
+  alternate_prompts: ['16']
+  phonetic: ZEK-tsayn
+- id: '018'
+  prompt: seventeen
+  answer: [siebzehn]
+  alternate_prompts: ['17']
+  phonetic: ZEEP-tsayn
+- id: '019'
+  prompt: eighteen
+  answer: [achtzehn]
+  alternate_prompts: ['18']
+  phonetic: AHKT-tsayn
+- id: '020'
+  prompt: nineteen
+  answer: [neunzehn]
+  alternate_prompts: ['19']
+  phonetic: NOYN-tsayn
+- id: '021'
+  prompt: twenty
+  answer: [zwanzig]
+  alternate_prompts: ['20']
+  phonetic: TSVAN-tsig
+- id: '022'
+  prompt: twenty-one
+  answer: [einundzwanzig]
+  alternate_prompts: ['21', 'twenty one']
+  phonetic: EY-nunt-tsvan-tsig
+- id: '023'
+  prompt: twenty-two
+  answer: [zweiundzwanzig]
+  alternate_prompts: ['22', 'twenty two']
+  phonetic: TSVAI-unt-tsvan-tsig
+- id: '024'
+  prompt: twenty-three
+  answer: [dreiundzwanzig]
+  alternate_prompts: ['23', 'twenty three']
+  phonetic: DRY-unt-tsvan-tsig
+- id: '025'
+  prompt: thirty
+  answer: [dreißig]
+  alternate_prompts: ['30']
+  phonetic: DRY-sig
+- id: '026'
+  prompt: forty
+  answer: [vierzig]
+  alternate_prompts: ['40']
+  phonetic: FEER-tsig
+- id: '027'
+  prompt: fifty
+  answer: [fünfzig]
+  alternate_prompts: ['50']
+  phonetic: FUENF-tsig
+- id: '028'
+  prompt: sixty
+  answer: [sechzig]
+  alternate_prompts: ['60']
+  phonetic: ZEK-tsig
+- id: '029'
+  prompt: seventy
+  answer: [siebzig]
+  alternate_prompts: ['70']
+  phonetic: ZEEP-tsig
+- id: '030'
+  prompt: eighty
+  answer: [achtzig]
+  alternate_prompts: ['80']
+  phonetic: AHKT-tsig
+- id: '031'
+  prompt: ninety
+  answer: [neunzig]
+  alternate_prompts: ['90']
+  phonetic: NOYN-tsig
+- id: '032'
+  prompt: one hundred
+  answer: [hundert]
+  alternate_prompts: ['100', 'a hundred']
+  phonetic: HOON-dert
+- id: '033'
+  prompt: one hundred one
+  answer: [hunderteins]
+  alternate_prompts: ['101', 'a hundred one']
+  phonetic: HOON-dert-eyns
+- id: '034'
+  prompt: two hundred
+  answer: [zweihundert]
+  alternate_prompts: ['200']
+  phonetic: TSVAI-hoon-dert
+- id: '035'
+  prompt: three hundred
+  answer: [dreihundert]
+  alternate_prompts: ['300']
+  phonetic: DRY-hoon-dert
+- id: '036'
+  prompt: one thousand
+  answer: [tausend]
+  alternate_prompts: ['1000', 'a thousand']
+  phonetic: TOW-zent
+- id: '037'
+  prompt: two thousand
+  answer: [zweitausend]
+  alternate_prompts: ['2000']
+  phonetic: TSVAI-tow-zent
+- id: '038'
+  prompt: five hundred thousand
+  answer: [fünfhunderttausend]
+  alternate_prompts: ['500000']
+  phonetic: FUENF-hoon-dert-tow-zent
+- id: '039'
+  prompt: one million
+  answer: [eine Million]
+  alternate_prompts: ['1000000', 'a million']
+  phonetic: EYE-neh mil-yoan
+- id: '040'
+  prompt: two million
+  answer: [zwei Millionen]
+  alternate_prompts: ['2000000', '2 million']
+  phonetic: TSVAI mil-yoan-en
+- id: '041'
+  prompt: one billion
+  answer: [eine Milliarde]
+  alternate_prompts: ['1000000000', 'a billion']
+  phonetic: EYE-neh mil-yar-deh
+- id: '042'
+  prompt: five billion
+  answer: [fünf Milliarden]
+  alternate_prompts: ['5000000000', '5 billion']
+  phonetic: FUENF mil-yar-den
