@@ -13,6 +13,7 @@
 metadata:
   id: "starter_pack_id"
   version: 1
+  schema_version: 1
 
 entries:
   - id: "001"
