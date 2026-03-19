@@ -1,0 +1,27 @@
+# Linguatrain minimal pack template
+# Place this file under: packs/<target_lang>/
+# Rename it to match your pack, for example: basics.yaml
+#
+# Notes:
+# - Pack files contain metadata and entries only.
+# - schema_version is supported.
+# - `prompt` is the source-side text shown to the learner.
+# - `answer` must always be a YAML list.
+
+metadata:
+  id: "starter_pack_id"
+  version: 1
+  schema_version: 1
+
+entries:
+  - id: "001"
+    prompt: "Example prompt in source language."
+    answer:
+      - "Example answer in target language."
+
+  - id: "002"
+    prompt: "Another example prompt."
+    answer:
+      - "Primary accepted answer."
+      - "Alternate accepted answer."
+    phonetic: "optional pronunciation guide"

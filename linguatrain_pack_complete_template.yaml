@@ -1,0 +1,47 @@
+# Linguatrain standard pack template
+# Place this file under: packs/<target_lang>/
+# Rename it to match your pack, for example: basics.yaml
+#
+# Notes:
+# - Pack files contain metadata and entries.
+# - schema_version is supported.
+# - UI strings and language metadata belong in a localisation file.
+# - `prompt` is the source-side text shown to the learner.
+# - `answer` must always be a YAML list.
+# - `alternate_prompts` is optional and adds accepted source-side variants.
+# - `spoken` is optional and stores colloquial target-side variants.
+# - `phonetic` is optional and stores a learner-friendly pronunciation guide.
+# - `speaker` is optional and mainly used for conversation-style packs.
+
+metadata:
+  id: "starter_pack_id"
+  version: 1
+  schema_version: 1
+  author: "Your Name"
+  description: "What this pack contains."
+  tags:
+    - "example"
+
+entries:
+  - id: "001"
+    prompt: "Example prompt in source language."
+    answer:
+      - "Example answer in target language."
+
+  - id: "002"
+    prompt: "Another example prompt."
+    answer:
+      - "Primary accepted answer."
+      - "Alternate accepted answer."
+    alternate_prompts:
+      - "Accepted alternate prompt wording."
+    spoken:
+      - "Colloquial spoken target form."
+    phonetic: "optional pronunciation guide"
+
+  - id: "003"
+    speaker: "A"
+    prompt: "Hello."
+    answer:
+      - "Hei."
+    phonetic: "HEI"
