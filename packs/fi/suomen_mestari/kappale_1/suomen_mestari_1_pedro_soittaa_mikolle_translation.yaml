@@ -1,0 +1,957 @@
+metadata:
+  id: suomen_mestari_1_pedro_soittaa_mikolle
+  title: "Suomen Mestari 1 - Pedro soittaa Mikolle"
+  type: translation
+  format: mixed
+  version: 1
+  schema_version: 2
+  source_language: fi
+  target_language: en-US
+
+entries:
+  - id: e001
+    type: narration
+    source: "Mikko on Pedron hyvä ystävä."
+    target: "Mikko is Pedro's good friend."
+    literal: "Mikko is Pedro's good friend."
+    chunks:
+      - id: c001
+        source: "Mikko on"
+        literal: "Mikko is"
+        target: "Mikko is"
+      - id: c002
+        source: "Pedron hyvä ystävä"
+        literal: "Pedro's good friend"
+        target: "Pedro's good friend"
+        hint: "\"Pedron\" is the genitive form, meaning \"Pedro's\"."
+    vocabulary_refs:
+      - olla
+      - hyvä
+      - ystävä
+    grammar:
+      refs:
+        - genitive_case
+
+  - id: e002
+    type: narration
+    source: "Mikko on suomalainen, mutta hän asuu nyt São Paulossa, Brasiliassa."
+    target: "Mikko is Finnish, but he now lives in São Paulo, Brazil."
+    literal: "Mikko is Finnish, but he lives now in São Paulo, in Brazil."
+    chunks:
+      - id: c001
+        source: "Mikko on suomalainen"
+        literal: "Mikko is Finnish"
+        target: "Mikko is Finnish"
+      - id: c002
+        source: "mutta hän asuu nyt"
+        literal: "but he lives now"
+        target: "but he now lives"
+      - id: c003
+        source: "São Paulossa, Brasiliassa"
+        literal: "in São Paulo, in Brazil"
+        target: "in São Paulo, Brazil"
+        hint: "\"-ssa/-ssä\" marks location: \"in\" or \"at\"."
+    vocabulary_refs:
+      - suomalainen
+      - mutta
+      - hän
+      - asua
+      - nyt
+    grammar:
+      refs:
+        - inessive_case
+
+  - id: e003
+    type: narration
+    source: "Tänään Pedro soittaa Mikolle videopuhelun."
+    target: "Today Pedro makes a video call to Mikko."
+    literal: "Today Pedro calls to Mikko a video call."
+    chunks:
+      - id: c001
+        source: "Tänään"
+        literal: "Today"
+        target: "Today"
+      - id: c002
+        source: "Pedro soittaa Mikolle"
+        literal: "Pedro calls to Mikko"
+        target:
+          - "Pedro calls Mikko"
+          - "Pedro calls to Mikko"
+        hint: "\"Mikolle\" means \"to Mikko\"."
+      - id: c003
+        source: "videopuhelun"
+        literal: "a video call"
+        target: "a video call"
+    vocabulary_refs:
+      - tänään
+      - soittaa
+      - videopuhelu
+    grammar:
+      refs:
+        - allative_case
+        - object_case
+
+  - id: e004
+    type: dialogue
+    speaker: Pedro
+    source: "Moi Mikko! Oletko jo töissä?"
+    target: "Hi Mikko! Are you already at work?"
+    literal: "Hi Mikko! Are you already in work?"
+    chunks:
+      - id: c001
+        source: "Moi Mikko!"
+        literal: "Hi Mikko!"
+        target:
+          - "Hi Mikko!"
+          - "Hello Mikko!"
+      - id: c002
+        source: "Oletko jo"
+        literal: "Are you already"
+        target: "Are you already"
+        hint: "\"-ko\" turns \"olet\" into a yes/no question."
+      - id: c003
+        source: "töissä"
+        literal: "in work"
+        target: "at work"
+        hint: "\"töissä\" is the common Finnish expression for \"at work\"."
+    vocabulary_refs:
+      - moi
+      - olla
+      - jo
+      - työ
+    grammar:
+      refs:
+        - yes_no_question
+        - inessive_case
+
+  - id: e005
+    type: dialogue
+    speaker: Mikko
+    source: "No moi! En vielä. Kello on täällä vasta puoli kahdeksan."
+    target: "Well hi! Not yet. It's only half past seven here."
+    literal: "Well hi! I don't yet. The clock is here only half eight."
+    chunks:
+      - id: c001
+        source: "No moi!"
+        literal: "Well hi!"
+        target:
+          - "Well hi!"
+          - "Hi there!"
+      - id: c002
+        source: "En vielä"
+        literal: "I don't yet"
+        target:
+          - "Not yet"
+          - "I am not yet"
+        hint: "\"En\" is the first-person negative verb."
+      - id: c003
+        source: "Kello on täällä vasta"
+        literal: "The clock is here only"
+        target:
+          - "It is only here"
+          - "It's only here"
+      - id: c004
+        source: "puoli kahdeksan"
+        literal: "half eight"
+        target:
+          - "half past seven"
+          - "7:30"
+        hint: "In Finnish, \"puoli kahdeksan\" means halfway to eight: 7:30."
+    vocabulary_refs:
+      - "no"
+      - moi
+      - ei
+      - vielä
+      - kello
+      - täällä
+      - vasta
+    grammar:
+      refs:
+        - negative_verb
+        - telling_time
+
+  - id: e006
+    type: dialogue
+    speaker: Pedro
+    source: "Ai niin, totta. No, mitä kuuluu?"
+    target: "Oh right, true. So, how are you?"
+    literal: "Oh so, true. Well, what is heard?"
+    chunks:
+      - id: c001
+        source: "Ai niin"
+        literal: "Oh so"
+        target:
+          - "Oh right"
+          - "Ah yes"
+      - id: c002
+        source: "totta"
+        literal: "true"
+        target:
+          - "true"
+          - "right"
+      - id: c003
+        source: "No, mitä kuuluu?"
+        literal: "Well, what is heard?"
+        target:
+          - "So, how are you?"
+          - "Well, how's it going?"
+        hint: "\"Mitä kuuluu?\" is an idiomatic greeting."
+    vocabulary_refs:
+      - ai niin
+      - totta
+      - "no"
+      - mitä kuuluu
+    grammar:
+      refs:
+        - idiomatic_greeting
+
+  - id: e007
+    type: dialogue
+    speaker: Mikko
+    source: "Ihan hyvää, mutta sää on nyt huono."
+    target: "Pretty good, but the weather is bad now."
+    literal: "Quite good, but weather is now bad."
+    chunks:
+      - id: c001
+        source: "Ihan hyvää"
+        literal: "Quite good"
+        target:
+          - "Pretty good"
+          - "Quite good"
+      - id: c002
+        source: "mutta sää on nyt huono"
+        literal: "but weather is now bad"
+        target: "but the weather is bad now"
+    vocabulary_refs:
+      - ihan
+      - hyvä
+      - mutta
+      - sää
+      - nyt
+      - huono
+
+  - id: e008
+    type: dialogue
+    speaker: Mikko
+    source: "Tänäänkin sataa kaatamalla ja on tuulista."
+    target: "Today too, it's pouring rain and windy."
+    literal: "Today also it rains by pouring and is windy."
+    chunks:
+      - id: c001
+        source: "Tänäänkin"
+        literal: "today also"
+        target:
+          - "today too"
+          - "even today"
+        hint: "\"-kin\" adds \"also\" or \"too\"."
+      - id: c002
+        source: "sataa kaatamalla"
+        literal: "rains by pouring"
+        target:
+          - "it's pouring rain"
+          - "it is raining heavily"
+        hint: "\"sataa kaatamalla\" is an idiom meaning it is raining very hard."
+      - id: c003
+        source: "ja on tuulista"
+        literal: "and is windy"
+        target: "and it is windy"
+    vocabulary_refs:
+      - tänään
+      - sataa
+      - kaatamalla
+      - ja
+      - tuulinen
+    grammar:
+      refs:
+        - clitic_kin
+        - weather_expression
+
+  - id: e009
+    type: dialogue
+    speaker: Pedro
+    source: "Aijaa! Täällä aurinko paistaa ja on tosi lämmin, +25 astetta."
+    target: "Oh really! The sun is shining here and it's really warm, 25 degrees."
+    literal: "Oh really! Here sun shines and is really warm, +25 degrees."
+    chunks:
+      - id: c001
+        source: "Aijaa!"
+        literal: "Oh really!"
+        target:
+          - "Oh really!"
+          - "I see!"
+      - id: c002
+        source: "Täällä aurinko paistaa"
+        literal: "Here sun shines"
+        target: "The sun is shining here"
+      - id: c003
+        source: "ja on tosi lämmin"
+        literal: "and is really warm"
+        target: "and it's really warm"
+      - id: c004
+        source: "+25 astetta"
+        literal: "+25 degrees"
+        target:
+          - "25 degrees"
+          - "+25 degrees"
+    vocabulary_refs:
+      - aijaa
+      - täällä
+      - aurinko
+      - paistaa
+      - tosi
+      - lämmin
+      - aste
+    grammar:
+      refs:
+        - weather_expression
+
+  - id: e010
+    type: dialogue
+    speaker: Pedro
+    source: "Yöllä on niin valoisaa, että on vaikea nukkua."
+    target: "At night it's so bright that it's hard to sleep."
+    literal: "At night is so bright that is difficult to sleep."
+    chunks:
+      - id: c001
+        source: "Yöllä"
+        literal: "at night"
+        target: "at night"
+      - id: c002
+        source: "on niin valoisaa"
+        literal: "is so bright"
+        target: "it's so bright"
+      - id: c003
+        source: "että on vaikea nukkua"
+        literal: "that is difficult to sleep"
+        target: "that it's hard to sleep"
+    vocabulary_refs:
+      - yö
+      - niin
+      - valoisa
+      - että
+      - vaikea
+      - nukkua
+    grammar:
+      refs:
+        - adessive_time_expression
+        - että_clause
+
+  - id: e011
+    type: dialogue
+    speaker: Mikko
+    source: "Heh heh, Suomen valoisat kesäyöt!"
+    target: "Heh heh, Finland's bright summer nights!"
+    literal: "Heh heh, Finland's bright summer nights!"
+    chunks:
+      - id: c001
+        source: "Heh heh"
+        literal: "Heh heh"
+        target: "Heh heh"
+      - id: c002
+        source: "Suomen valoisat kesäyöt"
+        literal: "Finland's bright summer nights"
+        target: "Finland's bright summer nights"
+        hint: "\"Suomen\" is the genitive form of \"Suomi\"."
+    vocabulary_refs:
+      - Suomi
+      - valoisa
+      - kesäyö
+    grammar:
+      refs:
+        - genitive_case
+        - plural_nominative
+
+  - id: e012
+    type: dialogue
+    speaker: Mikko
+    source: "Nauti nyt, marraskuussa on sitten pimeää."
+    target: "Enjoy it now; in November it will be dark then."
+    literal: "Enjoy now, in November is then dark."
+    chunks:
+      - id: c001
+        source: "Nauti nyt"
+        literal: "Enjoy now"
+        target:
+          - "Enjoy it now"
+          - "Enjoy now"
+      - id: c002
+        source: "marraskuussa"
+        literal: "in November"
+        target: "in November"
+      - id: c003
+        source: "on sitten pimeää"
+        literal: "is then dark"
+        target:
+          - "it will be dark then"
+          - "then it is dark"
+    vocabulary_refs:
+      - nauttia
+      - nyt
+      - marraskuu
+      - sitten
+      - pimeä
+    grammar:
+      refs:
+        - imperative
+        - inessive_case
+        - partitive_predicative
+
+  - id: e013
+    type: dialogue
+    speaker: Pedro
+    source: "No joo, niin kuulemma!"
+    target: "Yeah, so I've heard!"
+    literal: "Well yes, so reportedly!"
+    chunks:
+      - id: c001
+        source: "No joo"
+        literal: "Well yes"
+        target:
+          - "Yeah"
+          - "Well yes"
+      - id: c002
+        source: "niin kuulemma"
+        literal: "so reportedly"
+        target:
+          - "so I've heard"
+          - "apparently so"
+        hint: "\"kuulemma\" means something like \"I hear\" or \"apparently\"."
+    vocabulary_refs:
+      - no joo
+      - niin
+      - kuulemma
+
+  - id: e014
+    type: dialogue
+    speaker: Mikko
+    source: "Mitä muuta kuuluu?"
+    target: "What else is going on?"
+    literal: "What else is heard?"
+    chunks:
+      - id: c001
+        source: "Mitä muuta"
+        literal: "what else"
+        target: "what else"
+      - id: c002
+        source: "kuuluu"
+        literal: "is heard"
+        target:
+          - "is going on"
+          - "is new"
+    vocabulary_refs:
+      - mitä
+      - muu
+      - kuulua
+    grammar:
+      refs:
+        - kuuluu_expression
+
+  - id: e015
+    type: dialogue
+    speaker: Mikko
+    source: "Onko sinulla jo työpaikka?"
+    target: "Do you already have a job?"
+    literal: "Is there on you already workplace?"
+    chunks:
+      - id: c001
+        source: "Onko sinulla"
+        literal: "Is there on you"
+        target:
+          - "do you have"
+          - "is there for you"
+        hint: "\"Onko sinulla\" is used for asking if someone has something."
+      - id: c002
+        source: "jo"
+        literal: "already"
+        target: "already"
+      - id: c003
+        source: "työpaikka"
+        literal: "workplace"
+        target:
+          - "a job"
+          - "a workplace"
+    vocabulary_refs:
+      - olla
+      - sinä
+      - jo
+      - työpaikka
+    grammar:
+      refs:
+        - yes_no_question
+        - possession_expression
+
+  - id: e016
+    type: dialogue
+    speaker: Pedro
+    source: "Ei vielä."
+    target: "Not yet."
+    literal: "No yet."
+    chunks:
+      - id: c001
+        source: "Ei vielä"
+        literal: "No yet"
+        target: "Not yet"
+    vocabulary_refs:
+      - ei
+      - vielä
+
+  - id: e017
+    type: dialogue
+    speaker: Pedro
+    source: "Minä etsin töitä, mutta se ei ole helppoa."
+    target: "I'm looking for work, but it isn't easy."
+    literal: "I search works, but it is not easy."
+    chunks:
+      - id: c001
+        source: "Minä etsin töitä"
+        literal: "I search works"
+        target:
+          - "I'm looking for work"
+          - "I am looking for work"
+        hint: "\"töitä\" is the partitive plural of \"työ\"."
+      - id: c002
+        source: "mutta se ei ole helppoa"
+        literal: "but it is not easy"
+        target: "but it isn't easy"
+    vocabulary_refs:
+      - minä
+      - etsiä
+      - työ
+      - mutta
+      - se
+      - ei
+      - olla
+      - helppo
+    grammar:
+      refs:
+        - partitive_plural
+        - negative_verb
+
+  - id: e018
+    type: dialogue
+    speaker: Pedro
+    source: "Olen nyt suomen kurssilla."
+    target: "I'm now in a Finnish course."
+    literal: "I am now on Finnish course."
+    chunks:
+      - id: c001
+        source: "Olen nyt"
+        literal: "I am now"
+        target: "I am now"
+      - id: c002
+        source: "suomen kurssilla"
+        literal: "on Finnish course"
+        target:
+          - "in a Finnish course"
+          - "on a Finnish course"
+        hint: "\"kurssilla\" is commonly used for being in or on a course."
+    vocabulary_refs:
+      - olla
+      - nyt
+      - suomen kurssi
+    grammar:
+      refs:
+        - adessive_case
+
+  - id: e019
+    type: dialogue
+    speaker: Mikko
+    source: "Hieno juttu! Millainen kurssi on?"
+    target: "Great! What is the course like?"
+    literal: "Fine thing! What-kind course is?"
+    chunks:
+      - id: c001
+        source: "Hieno juttu!"
+        literal: "Fine thing!"
+        target:
+          - "Great!"
+          - "Wonderful!"
+      - id: c002
+        source: "Millainen kurssi on?"
+        literal: "What-kind course is?"
+        target: "What is the course like?"
+        hint: "\"Millainen\" asks what something is like."
+    vocabulary_refs:
+      - hieno
+      - juttu
+      - millainen
+      - kurssi
+      - olla
+    grammar:
+      refs:
+        - question_word
+
+  - id: e020
+    type: dialogue
+    speaker: Pedro
+    source: "Se on tosi hyvä!"
+    target: "It's really good!"
+    literal: "It is really good!"
+    chunks:
+      - id: c001
+        source: "Se on"
+        literal: "It is"
+        target: "It is"
+      - id: c002
+        source: "tosi hyvä"
+        literal: "really good"
+        target: "really good"
+    vocabulary_refs:
+      - se
+      - olla
+      - tosi
+      - hyvä
+
+  - id: e021
+    type: dialogue
+    speaker: Pedro
+    source: "Opettaja on mukava ja minun ystävät Olga ja Alex ovat samalla kurssilla."
+    target: "The teacher is nice and my friends Olga and Alex are in the same course."
+    literal: "Teacher is nice and my friends Olga and Alex are on same course."
+    chunks:
+      - id: c001
+        source: "Opettaja on mukava"
+        literal: "Teacher is nice"
+        target: "The teacher is nice"
+      - id: c002
+        source: "ja minun ystävät Olga ja Alex"
+        literal: "and my friends Olga and Alex"
+        target: "and my friends Olga and Alex"
+      - id: c003
+        source: "ovat samalla kurssilla"
+        literal: "are on same course"
+        target:
+          - "are in the same course"
+          - "are on the same course"
+        hint: "\"samalla kurssilla\" means \"on/in the same course\"."
+    vocabulary_refs:
+      - opettaja
+      - mukava
+      - ja
+      - minä
+      - ystävä
+      - olla
+      - sama
+      - kurssi
+    grammar:
+      refs:
+        - plural_verb
+        - adessive_case
+
+  - id: e022
+    type: dialogue
+    speaker: Pedro
+    source: "Kurssi on maanantaisin, keskiviikkoisin ja torstaisin."
+    target: "The course is on Mondays, Wednesdays, and Thursdays."
+    literal: "Course is on Mondays, Wednesdays and Thursdays."
+    chunks:
+      - id: c001
+        source: "Kurssi on"
+        literal: "Course is"
+        target:
+          - "The course is"
+          - "Course is"
+      - id: c002
+        source: "maanantaisin, keskiviikkoisin ja torstaisin"
+        literal: "on Mondays, Wednesdays and Thursdays"
+        target: "on Mondays, Wednesdays, and Thursdays"
+        hint: "\"-isin\" with weekdays means recurring days, such as \"on Mondays\"."
+    vocabulary_refs:
+      - kurssi
+      - olla
+      - maanantai
+      - keskiviikko
+      - ja
+      - torstai
+    grammar:
+      refs:
+        - recurring_weekday_expression
+
+  - id: e023
+    type: dialogue
+    speaker: Mikko
+    source: "Kolme kertaa viikossa! Ohhoh!"
+    target: "Three times a week! Wow!"
+    literal: "Three times in week! Wow!"
+    chunks:
+      - id: c001
+        source: "Kolme kertaa viikossa"
+        literal: "three times in week"
+        target: "three times a week"
+      - id: c002
+        source: "Ohhoh"
+        literal: "Wow"
+        target:
+          - "Wow"
+          - "Whoa"
+    vocabulary_refs:
+      - kolme
+      - kerta
+      - viikko
+      - ohhoh
+    grammar:
+      refs:
+        - frequency_expression
+        - inessive_case
+
+  - id: e024
+    type: dialogue
+    speaker: Mikko
+    source: "Kohta sinä puhut suomea yhtä hyvin kuin minä!"
+    target: "Soon you'll speak Finnish as well as I do!"
+    literal: "Soon you speak Finnish as well as I!"
+    chunks:
+      - id: c001
+        source: "Kohta sinä puhut suomea"
+        literal: "Soon you speak Finnish"
+        target: "Soon you'll speak Finnish"
+      - id: c002
+        source: "yhtä hyvin kuin minä"
+        literal: "as well as I"
+        target:
+          - "as well as I do"
+          - "as well as me"
+        hint: "\"yhtä hyvin kuin\" means \"as well as\"."
+    vocabulary_refs:
+      - kohta
+      - sinä
+      - puhua
+      - suomi
+      - yhtä hyvin kuin
+      - minä
+    grammar:
+      refs:
+        - partitive_object
+        - comparison_expression
+
+  - id: e025
+    type: dialogue
+    speaker: Pedro
+    source: "Heh heh. Niin varmaan."
+    target: "Heh heh. Sure."
+    literal: "Heh heh. So surely."
+    chunks:
+      - id: c001
+        source: "Heh heh"
+        literal: "Heh heh"
+        target: "Heh heh"
+      - id: c002
+        source: "Niin varmaan"
+        literal: "So surely"
+        target:
+          - "Sure"
+          - "Yeah, right"
+          - "Probably"
+        hint: "\"Niin varmaan\" can be playful or skeptical depending on tone."
+    vocabulary_refs:
+      - niin
+      - varmaan
+
+  - id: e026
+    type: dialogue
+    speaker: Mikko
+    source: "Asutteko te vielä Hannan opiskelija-asunnossa Espoossa?"
+    target: "Do you still live in Hanna's student apartment in Espoo?"
+    literal: "Do you live still in Hanna's student apartment in Espoo?"
+    chunks:
+      - id: c001
+        source: "Asutteko te vielä"
+        literal: "Do you live still"
+        target: "Do you still live"
+        hint: "\"Asutteko\" is the plural/formal yes/no question form of \"asua\"."
+      - id: c002
+        source: "Hannan opiskelija-asunnossa"
+        literal: "in Hanna's student apartment"
+        target: "in Hanna's student apartment"
+      - id: c003
+        source: "Espoossa"
+        literal: "in Espoo"
+        target: "in Espoo"
+    vocabulary_refs:
+      - asua
+      - te
+      - vielä
+      - opiskelija-asunto
+    grammar:
+      refs:
+        - yes_no_question
+        - genitive_case
+        - inessive_case
+
+  - id: e027
+    type: dialogue
+    speaker: Pedro
+    source: "Joo, mutta me muutamme syyskuussa."
+    target: "Yes, but we're moving in September."
+    literal: "Yes, but we move in September."
+    chunks:
+      - id: c001
+        source: "Joo, mutta"
+        literal: "Yes, but"
+        target: "Yes, but"
+      - id: c002
+        source: "me muutamme"
+        literal: "we move"
+        target:
+          - "we are moving"
+          - "we move"
+      - id: c003
+        source: "syyskuussa"
+        literal: "in September"
+        target: "in September"
+    vocabulary_refs:
+      - joo
+      - mutta
+      - me
+      - muuttaa
+      - syyskuu
+    grammar:
+      refs:
+        - inessive_case
+
+  - id: e028
+    type: dialogue
+    speaker: Pedro
+    source: "Meidän uusi koti on Helsingissä."
+    target: "Our new home is in Helsinki."
+    literal: "Our new home is in Helsinki."
+    chunks:
+      - id: c001
+        source: "Meidän uusi koti"
+        literal: "our new home"
+        target: "our new home"
+        hint: "\"meidän\" means \"our\"."
+      - id: c002
+        source: "on Helsingissä"
+        literal: "is in Helsinki"
+        target: "is in Helsinki"
+    vocabulary_refs:
+      - meidän
+      - uusi
+      - koti
+      - olla
+    grammar:
+      refs:
+        - genitive_case
+        - inessive_case
+
+  - id: e029
+    type: dialogue
+    speaker: Mikko
+    source: "Kuulostaa hyvältä!"
+    target: "Sounds good!"
+    literal: "Sounds from good!"
+    chunks:
+      - id: c001
+        source: "Kuulostaa hyvältä"
+        literal: "sounds from good"
+        target: "sounds good"
+        hint: "\"hyvältä\" is used after \"kuulostaa\" to mean \"sounds good\"."
+    vocabulary_refs:
+      - kuulostaa
+      - hyvä
+    grammar:
+      refs:
+        - ablative_case
+
+  - id: e030
+    type: dialogue
+    speaker: Mikko
+    source: "Mutta hei, nyt minun täytyy lähteä töihin."
+    target: "But hey, now I have to leave for work."
+    literal: "But hey, now my must leave to works."
+    chunks:
+      - id: c001
+        source: "Mutta hei"
+        literal: "But hey"
+        target: "But hey"
+      - id: c002
+        source: "nyt minun täytyy"
+        literal: "now my must"
+        target: "now I have to"
+        hint: "\"minun täytyy\" means \"I have to\"."
+      - id: c003
+        source: "lähteä töihin"
+        literal: "leave to works"
+        target: "leave for work"
+        hint: "\"töihin\" means \"to work\"."
+    vocabulary_refs:
+      - mutta
+      - hei
+      - nyt
+      - täytyä
+      - lähteä
+      - työ
+    grammar:
+      refs:
+        - necessive_expression
+        - illative_case
+
+  - id: e031
+    type: dialogue
+    speaker: Mikko
+    source: "Terveisiä Hannalle!"
+    target: "Regards to Hanna!"
+    literal: "Greetings to Hanna!"
+    chunks:
+      - id: c001
+        source: "Terveisiä Hannalle"
+        literal: "greetings to Hanna"
+        target:
+          - "Regards to Hanna"
+          - "Say hello to Hanna"
+        hint: "\"Terveisiä\" is used to send greetings or regards."
+    vocabulary_refs:
+      - terveiset
+    grammar:
+      refs:
+        - allative_case
+
+  - id: e032
+    type: dialogue
+    speaker: Pedro
+    source: "Kiitos, minä kerron! Moikka!"
+    target: "Thanks, I'll tell her! Bye!"
+    literal: "Thanks, I tell! Bye!"
+    chunks:
+      - id: c001
+        source: "Kiitos"
+        literal: "Thanks"
+        target:
+          - "Thanks"
+          - "Thank you"
+      - id: c002
+        source: "minä kerron"
+        literal: "I tell"
+        target:
+          - "I'll tell her"
+          - "I will tell her"
+      - id: c003
+        source: "Moikka"
+        literal: "Bye"
+        target:
+          - "Bye"
+          - "See you"
+    vocabulary_refs:
+      - kiitos
+      - minä
+      - kertoa
+      - moikka
+
+  - id: e033
+    type: dialogue
+    speaker: Mikko
+    source: "Moi moi!"
+    target: "Bye bye!"
+    literal: "Hi hi!"
+    chunks:
+      - id: c001
+        source: "Moi moi"
+        literal: "Hi hi"
+        target:
+          - "Bye bye"
+          - "Bye"
+          - "See you"
+        hint: "\"Moi moi\" is often used when saying goodbye."
+    vocabulary_refs:
+      - moi

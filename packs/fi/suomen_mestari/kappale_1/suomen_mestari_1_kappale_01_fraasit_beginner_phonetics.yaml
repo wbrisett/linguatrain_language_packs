@@ -1,0 +1,219 @@
+---
+metadata:
+  id: suomen_mestari_1_kappale_01_fraasit
+  version: 1
+  schema_version: 1
+  description: 'Built from CSV: suomen_mestari_1_kappale_01_fraasit.csv'
+entries:
+- id: '001'
+  prompt: Hyvää huomenta!
+  answer:
+  - Good morning!
+  phonetics: HUU-va -hoo-oh-mehn-tah
+- id: '002'
+  prompt: Huomenta!
+  answer:
+  - Morning!
+  - Good morning!
+  notes:
+  - Short form of Hyvää huomenta.
+  phonetics: HOO-OH-mehn-tah
+- id: '003'
+  prompt: Hyvää iltaa!
+  answer:
+  - Good evening!
+  phonetics: HUU-va- eel-tah
+- id: '004'
+  prompt: Iltaa!
+  answer:
+  - Evening!
+  - Good evening!
+  notes:
+  - Short form of Hyvää iltaa.
+  phonetics: EEL-tah
+- id: '005'
+  prompt: Hyvää päivää!
+  answer:
+  - Good day!
+  - Hello!
+  notes:
+  - Polite daytime greeting.
+  phonetics: HUU-va -pai-va
+- id: '006'
+  prompt: Päivää!
+  answer:
+  - Good day!
+  - Hello!
+  notes:
+  - Short form of Hyvää päivää.
+  phonetics: PAI-va
+- id: '007'
+  prompt: Hyvää yötä!
+  answer:
+  - Good night!
+  notes:
+  - Said before sleeping or late at night.
+  phonetics: HUU-va- uu-uh-ta
+- id: '008'
+  prompt: Nuku hyvin!
+  answer:
+  - Sleep well!
+  phonetics: NOO-koo -huu-veen
+- id: '009'
+  prompt: Hei!
+  answer:
+  - Hi!
+  - Hello!
+  phonetics: HAY
+- id: '010'
+  prompt: Moi!
+  answer:
+  - Hi!
+  notes:
+  - Informal.
+  phonetics: MOY
+- id: '011'
+  prompt: Terve!
+  answer:
+  - Hi!
+  - Hello!
+  notes:
+  - Friendly and informal.
+  phonetics: TEHR-veh
+- id: '012'
+  prompt: Nähdään!
+  answer:
+  - See you later!
+  phonetics: NAH-dan
+- id: '013'
+  prompt: Hei hei!
+  answer:
+  - Bye-bye!
+  phonetics: HAY -hay
+- id: '014'
+  prompt: Moi moi!
+  answer:
+  - Bye!
+  notes:
+  - Informal.
+  phonetics: MOY -moy
+- id: '015'
+  prompt: Moikka!
+  answer:
+  - Bye!
+  notes:
+  - Informal and friendly.
+  phonetics: MOYK-kah
+- id: '016'
+  prompt: Heippa!
+  answer:
+  - Bye!
+  notes:
+  - Friendly.
+  phonetics: HAYP-pah
+- id: '017'
+  prompt: Näkemiin!
+  answer:
+  - Goodbye!
+  notes:
+  - More formal.
+  phonetics: NA-keh-meen
+- id: '018'
+  prompt: Hauska tutustua!
+  answer:
+  - Nice to meet you!
+  phonetics: HOWS-kah -too-toos-too-ah
+- id: '019'
+  prompt: Tässä on Tiina.
+  answer:
+  - This is Tiina.
+  phonetics: TAS-sa- ohn -tee-nah
+- id: '020'
+  prompt: Kiitos samoin!
+  answer:
+  - Thanks, same to you!
+  phonetics: KEE-tohs -sah-moyn
+- id: '021'
+  prompt: Joo.
+  answer:
+  - Yes.
+  notes:
+  - Informal.
+  phonetics: YOH
+- id: '022'
+  prompt: Kyllä.
+  answer:
+  - Yes.
+  notes:
+  - Neutral or emphatic.
+  phonetics: KUUL-la
+- id: '023'
+  prompt: Ei.
+  answer:
+  - No.
+  phonetics: AY
+- id: '024'
+  prompt: Ei kestä!
+  answer:
+  - No problem!
+  - You're welcome!
+  notes:
+  - Common response to thanks.
+  phonetics: AY -kehs-ta
+- id: '025'
+  prompt: Ole hyvä!
+  answer:
+  - You're welcome!
+  notes:
+  - Also used when handing something to someone.
+  phonetics: OH-leh -huu-va
+- id: '026'
+  prompt: Kiitos!
+  answer:
+  - Thank you!
+  phonetics: KEE-tohs
+- id: '027'
+  prompt: Anteeksi!
+  answer:
+  - Excuse me!
+  - Sorry!
+  phonetics: AHN-tehk-see
+- id: '028'
+  prompt: Ei se mitään!
+  answer:
+  - That's okay!
+  - No problem!
+  phonetics: AY -seh -mee-tan
+- id: '029'
+  prompt: Kippis!
+  answer:
+  - Cheers!
+  notes:
+  - Toast before drinking.
+  phonetics: KEEP-pees
+- id: '030'
+  prompt: Skool!
+  answer:
+  - Cheers!
+  notes:
+  - Loan phrase
+  - often written skål in Swedish/Nordic contexts.
+  phonetics: SKOHL
+- id: '031'
+  prompt: Hyvää ruokahalua!
+  answer:
+  - Enjoy your meal!
+  phonetics: HUU-va -roo-oh-kah-hah-loo-ah
+- id: '032'
+  prompt: Kiitos ruoasta!
+  answer:
+  - Thank you for the food!
+  - Thank you for the meal!
+  notes:
+  - Standard spelling is ruoasta.
+  phonetics: KEE-tohs -roo-oh-ahs-tah
+- id: '033'
+  prompt: Kiitos, oli hyvää.
+  answer:
+  - Thank you, it was good.
+  phonetics: KEE-tohs,- oh-lee -huu-va

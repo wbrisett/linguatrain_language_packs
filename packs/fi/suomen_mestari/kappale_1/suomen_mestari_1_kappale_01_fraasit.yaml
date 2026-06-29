@@ -1,0 +1,187 @@
+# created with build_yaml version: dev_02
+---
+metadata:
+  id: suomen_mestari_1_kappale_01_fraasit
+  version: 1
+  schema_version: 1
+  description: 'Built from CSV: suomen_mestari_1_kappale_01_fraasit.csv'
+entries:
+- id: '001'
+  prompt: Hyvää huomenta!
+  answer:
+  - Good morning!
+- id: '002'
+  prompt: Huomenta!
+  answer:
+  - Morning!
+  - Good morning!
+  notes:
+  - Short form of Hyvää huomenta.
+- id: '003'
+  prompt: Hyvää iltaa!
+  answer:
+  - Good evening!
+- id: '004'
+  prompt: Iltaa!
+  answer:
+  - Evening!
+  - Good evening!
+  notes:
+  - Short form of Hyvää iltaa.
+- id: '005'
+  prompt: Hyvää päivää!
+  answer:
+  - Good day!
+  - Hello!
+  notes:
+  - Polite daytime greeting.
+- id: '006'
+  prompt: Päivää!
+  answer:
+  - Good day!
+  - Hello!
+  notes:
+  - Short form of Hyvää päivää.
+- id: '007'
+  prompt: Hyvää yötä!
+  answer:
+  - Good night!
+  notes:
+  - Said before sleeping or late at night.
+- id: '008'
+  prompt: Nuku hyvin!
+  answer:
+  - Sleep well!
+- id: '009'
+  prompt: Hei!
+  answer:
+  - Hi!
+  - Hello!
+- id: '010'
+  prompt: Moi!
+  answer:
+  - Hi!
+  notes:
+  - Informal.
+- id: '011'
+  prompt: Terve!
+  answer:
+  - Hi!
+  - Hello!
+  notes:
+  - Friendly and informal.
+- id: '012'
+  prompt: Nähdään!
+  answer:
+  - See you later!
+- id: '013'
+  prompt: Hei hei!
+  answer:
+  - Bye-bye!
+- id: '014'
+  prompt: Moi moi!
+  answer:
+  - Bye!
+  notes:
+  - Informal.
+- id: '015'
+  prompt: Moikka!
+  answer:
+  - Bye!
+  notes:
+  - Informal and friendly.
+- id: '016'
+  prompt: Heippa!
+  answer:
+  - Bye!
+  notes:
+  - Friendly.
+- id: '017'
+  prompt: Näkemiin!
+  answer:
+  - Goodbye!
+  notes:
+  - More formal.
+- id: '018'
+  prompt: Hauska tutustua!
+  answer:
+  - Nice to meet you!
+- id: '019'
+  prompt: Tässä on Tiina.
+  answer:
+  - This is Tiina.
+- id: '020'
+  prompt: Kiitos samoin!
+  answer:
+  - Thanks, same to you!
+- id: '021'
+  prompt: Joo.
+  answer:
+  - Yes.
+  notes:
+  - Informal.
+- id: '022'
+  prompt: Kyllä.
+  answer:
+  - Yes.
+  notes:
+  - Neutral or emphatic.
+- id: '023'
+  prompt: Ei.
+  answer:
+  - No.
+- id: '024'
+  prompt: Ei kestä!
+  answer:
+  - No problem!
+  - You're welcome!
+  notes:
+  - Common response to thanks.
+- id: '025'
+  prompt: Ole hyvä!
+  answer:
+  - You're welcome!
+  notes:
+  - Also used when handing something to someone.
+- id: '026'
+  prompt: Kiitos!
+  answer:
+  - Thank you!
+- id: '027'
+  prompt: Anteeksi!
+  answer:
+  - Excuse me!
+  - Sorry!
+- id: '028'
+  prompt: Ei se mitään!
+  answer:
+  - That's okay!
+  - No problem!
+- id: '029'
+  prompt: Kippis!
+  answer:
+  - Cheers!
+  notes:
+  - Toast before drinking.
+- id: '030'
+  prompt: Skool!
+  answer:
+  - Cheers!
+  notes:
+  - Loan phrase
+  - often written skål in Swedish/Nordic contexts.
+- id: '031'
+  prompt: Hyvää ruokahalua!
+  answer:
+  - Enjoy your meal!
+- id: '032'
+  prompt: Kiitos ruoasta!
+  answer:
+  - Thank you for the food!
+  - Thank you for the meal!
+  notes:
+  - Standard spelling is ruoasta.
+- id: '033'
+  prompt: Kiitos, oli hyvää.
+  answer:
+  - Thank you, it was good.

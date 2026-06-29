@@ -1,0 +1,187 @@
+# created with build_yaml version: dev_02
+---
+metadata:
+  id: suomen_mestari_1_kappale_01_sanasto
+  version: 1
+  schema_version: 1
+  description: 'Built from CSV: suomen_mestari_1_kappale_01_sanasto.csv'
+entries:
+- id: '001'
+  prompt: Hei!
+  answer:
+  - hi
+  - hello
+- id: '002'
+  prompt: ja
+  answer:
+  - and
+- id: '003'
+  prompt: Tervetuloa!
+  answer:
+  - welcome
+- id: '004'
+  prompt: Anteeksi!
+  answer:
+  - excuse me
+  - sorry
+- id: '005'
+  prompt: onko
+  answer:
+  - is...?
+  - are...?
+  notes:
+  - Yes/no question form of olla.
+- id: '006'
+  prompt: täällä
+  answer:
+  - here
+- id: '007'
+  prompt: suomen kurssi
+  answer:
+  - Finnish course
+- id: '008'
+  prompt: joo
+  answer:
+  - 'yes'
+  notes:
+  - Informal.
+- id: '009'
+  prompt: olla
+  answer:
+  - to be
+- id: '010'
+  prompt: tämä
+  answer:
+  - this
+- id: '011'
+  prompt: paikka
+  answer:
+  - place
+  - seat
+- id: '012'
+  prompt: vapaa
+  answer:
+  - free
+  - available
+- id: '013'
+  prompt: kiva
+  answer:
+  - nice
+- id: '014'
+  prompt: minä
+  answer:
+  - I
+- id: '015'
+  prompt: kuka
+  answer:
+  - who
+- id: '016'
+  prompt: sinä
+  answer:
+  - you
+  notes:
+  - Singular you.
+- id: '017'
+  prompt: Hauska tutustua!
+  answer:
+  - Nice to meet you!
+- id: '018'
+  prompt: Kiitos samoin!
+  answer:
+  - Thanks, same to you!
+- id: '019'
+  prompt: Moi!
+  answer:
+  - hi
+  notes:
+  - Informal.
+- id: '020'
+  prompt: Mitä kuuluu?
+  answer:
+  - How are you?
+  notes:
+  - Literally asks how things are going.
+- id: '021'
+  prompt: Terve!
+  answer:
+  - hi
+  - hello
+  notes:
+  - Friendly and informal.
+- id: '022'
+  prompt: Kiitos!
+  answer:
+  - thank you
+- id: '023'
+  prompt: Minulle kuuluu hyvää.
+  answer:
+  - I'm doing well.
+- id: '024'
+  prompt: Entä sinulle?
+  answer:
+  - And you?
+- id: '025'
+  prompt: Ihan hyvää, kiitos.
+  answer:
+  - Pretty good, thanks.
+- id: '026'
+  prompt: tässä
+  answer:
+  - here
+  - this is
+  notes:
+  - 'Used when introducing someone: Tässä on Tiina.'
+- id: '027'
+  prompt: minun
+  answer:
+  - my
+  notes:
+  - Genitive form of minä.
+- id: '028'
+  prompt: nimi
+  answer:
+  - name
+- id: '029'
+  prompt: opettaja
+  answer:
+  - teacher
+- id: '030'
+  prompt: Miten se kirjoitetaan?
+  answer:
+  - How is it written?
+  - How do you spell it?
+- id: '031'
+  prompt: etunimi
+  answer:
+  - first name
+- id: '032'
+  prompt: sukunimi
+  answer:
+  - last name
+  - surname
+- id: '033'
+  prompt: okei
+  answer:
+  - okay
+- id: '034'
+  prompt: kurssipäivä
+  answer:
+  - course day
+  - class day
+- id: '035'
+  prompt: maanantai
+  answer:
+  - Monday
+- id: '036'
+  prompt: keskiviikko
+  answer:
+  - Wednesday
+- id: '037'
+  prompt: torstai
+  answer:
+  - Thursday
+- id: '038'
+  prompt: kello
+  answer:
+  - clock
+  - o'clock

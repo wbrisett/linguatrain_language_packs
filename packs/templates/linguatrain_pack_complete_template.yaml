@@ -17,12 +17,11 @@
 metadata:
   id: "starter_pack_id"
   version: 1
+  schema_version: 1
   author: "Your Name"                    # Optional
   description: "What this pack contains."  # Optional
   tags:                                  # Optional
     - "example"
-  tts:                                   # Optional pack-level override
-    template: "{text}"
 
 entries:
   - id: "001"

@@ -1,0 +1,224 @@
+---
+metadata:
+  id: suomen_mestari_1_kappale_01_sanasto
+  version: 1
+  schema_version: 1
+  description: 'Built from CSV: suomen_mestari_1_kappale_01_sanasto.csv'
+entries:
+- id: '001'
+  prompt: Hei!
+  answer:
+  - hi
+  - hello
+  phonetics: HAY
+- id: '002'
+  prompt: ja
+  answer:
+  - and
+  phonetics: yah
+- id: '003'
+  prompt: Tervetuloa!
+  answer:
+  - welcome
+  phonetics: TEHR-veh-too-loh-ah
+- id: '004'
+  prompt: Anteeksi!
+  answer:
+  - excuse me
+  - sorry
+  phonetics: AHN-tehk-see
+- id: '005'
+  prompt: onko
+  answer:
+  - is...?
+  - are...?
+  notes:
+  - Yes/no question form of olla.
+  phonetics: OHN-koh
+- id: '006'
+  prompt: täällä
+  answer:
+  - here
+  phonetics: TAAL-la
+- id: '007'
+  prompt: suomen kurssi
+  answer:
+  - Finnish course
+  phonetics: SOO-OH-mehn -koors-see
+- id: '008'
+  prompt: joo
+  answer:
+  - 'yes'
+  notes:
+  - Informal.
+  phonetics: YOH
+- id: '009'
+  prompt: olla
+  answer:
+  - to be
+  phonetics: OHL-lah
+- id: '010'
+  prompt: tämä
+  answer:
+  - this
+  phonetics: TA-ma
+- id: '011'
+  prompt: paikka
+  answer:
+  - place
+  - seat
+  phonetics: PAIK-kah
+- id: '012'
+  prompt: vapaa
+  answer:
+  - free
+  - available
+  phonetics: VAH-pah
+- id: '013'
+  prompt: kiva
+  answer:
+  - nice
+  phonetics: KEE-vah
+- id: '014'
+  prompt: minä
+  answer:
+  - I
+  phonetics: MEE-na
+- id: '015'
+  prompt: kuka
+  answer:
+  - who
+  phonetics: KOO-kah
+- id: '016'
+  prompt: sinä
+  answer:
+  - you
+  notes:
+  - Singular you.
+  phonetics: SEE-na
+- id: '017'
+  prompt: Hauska tutustua!
+  answer:
+  - Nice to meet you!
+  phonetics: HOWS-kah -too-toos-too-ah
+- id: '018'
+  prompt: Kiitos samoin!
+  answer:
+  - Thanks, same to you!
+  phonetics: KEE-tohs -sah-moyn
+- id: '019'
+  prompt: Moi!
+  answer:
+  - hi
+  notes:
+  - Informal.
+  phonetics: MOY
+- id: '020'
+  prompt: Mitä kuuluu?
+  answer:
+  - How are you?
+  notes:
+  - Literally asks how things are going.
+  phonetics: MEE-ta -koo-loo
+- id: '021'
+  prompt: Terve!
+  answer:
+  - hi
+  - hello
+  notes:
+  - Friendly and informal.
+  phonetics: TEHR-veh
+- id: '022'
+  prompt: Kiitos!
+  answer:
+  - thank you
+  phonetics: KEE-tohs
+- id: '023'
+  prompt: Minulle kuuluu hyvää.
+  answer:
+  - I'm doing well.
+  phonetics: MEE-nool-leh -koo-loo -huu-va
+- id: '024'
+  prompt: Entä sinulle?
+  answer:
+  - And you?
+  phonetics: EHN-ta -see-nool-leh
+- id: '025'
+  prompt: Ihan hyvää, kiitos.
+  answer:
+  - Pretty good, thanks.
+  phonetics: EE-hahn -huu-va, -kee-tohs
+- id: '026'
+  prompt: tässä
+  answer:
+  - here
+  - this is
+  notes:
+  - 'Used when introducing someone: Tässä on Tiina.'
+  phonetics: TAS-sa
+- id: '027'
+  prompt: minun
+  answer:
+  - my
+  notes:
+  - Genitive form of minä.
+  phonetics: MEE-noon
+- id: '028'
+  prompt: nimi
+  answer:
+  - name
+  phonetics: NEE-mee
+- id: '029'
+  prompt: opettaja
+  answer:
+  - teacher
+  phonetics: OH-peht-tah-yah
+- id: '030'
+  prompt: Miten se kirjoitetaan?
+  answer:
+  - How is it written?
+  - How do you spell it?
+  phonetics: MEE-tehn -seh -keer-yoy-teh-tahn
+- id: '031'
+  prompt: etunimi
+  answer:
+  - first name
+  phonetics: EH-too-nee-mee
+- id: '032'
+  prompt: sukunimi
+  answer:
+  - last name
+  - surname
+  phonetics: SOO-koo-nee-mee
+- id: '033'
+  prompt: okei
+  answer:
+  - okay
+  phonetics: OH-kay
+- id: '034'
+  prompt: kurssipäivä
+  answer:
+  - course day
+  - class day
+  phonetics: KOORS-see-pai-va
+- id: '035'
+  prompt: maanantai
+  answer:
+  - Monday
+  phonetics: MAH-nahn-tai
+- id: '036'
+  prompt: keskiviikko
+  answer:
+  - Wednesday
+  phonetics: KEHS-kee-veek-koh
+- id: '037'
+  prompt: torstai
+  answer:
+  - Thursday
+  phonetics: TOHRS-tai
+- id: '038'
+  prompt: kello
+  answer:
+  - clock
+  - o'clock
+  phonetics: KEHL-loh
